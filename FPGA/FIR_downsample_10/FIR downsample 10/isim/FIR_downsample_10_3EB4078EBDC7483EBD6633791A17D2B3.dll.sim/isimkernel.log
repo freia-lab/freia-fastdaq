@@ -1,0 +1,20 @@
+Command line:
+   FIR_downsample_10_3EB4078EBDC7483EBD6633791A17D2B3.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Fri Sep 19 17:05:42 2014
+
+
+ Elaboration Time: 0.0312 
+ Current Memory Usage: 824.697 Meg
+
+ Total Signals          : 131
+ Total Nets             : 6258
+ Total Signal Drivers   : 92
+ Total Blocks           : 16
+ Total Primitive Blocks : 5
+ Total Processes        : 18
+ Total Traceable Variables  : 260
+ Total Scalar Nets and Variables : 14550
+550

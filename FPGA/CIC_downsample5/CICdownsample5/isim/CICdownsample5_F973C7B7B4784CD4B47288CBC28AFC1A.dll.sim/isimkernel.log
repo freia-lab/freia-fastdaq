@@ -1,0 +1,21 @@
+Command line:
+   CICdownsample5_F973C7B7B4784CD4B47288CBC28AFC1A.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Fri Sep 19 17:05:42 2014
+
+
+ Elaboration Time: 0 sec
+
+ Cu
+ Current Memory Usage: 813.437 Meg
+
+ Total Signals          : 110
+ Total Nets             : 1166
+ Total Signal Drivers   : 73
+ Total Blocks           : 24
+ Total Primitive Blocks : 6
+ Total Processes        : 35
+ Total Traceable Variables  : 278
+ Total Scalar Nets and Variables : 2973

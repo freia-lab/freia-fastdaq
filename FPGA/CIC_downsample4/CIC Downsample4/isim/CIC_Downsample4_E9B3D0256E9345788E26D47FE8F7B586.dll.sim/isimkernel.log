@@ -1,0 +1,20 @@
+Command line:
+   CIC_Downsample4_E9B3D0256E9345788E26D47FE8F7B586.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Fri Sep 19 17:05:42 2014
+
+
+ Elaboration Time: 0.06240
+ Current Memory Usage: 815.661 Meg
+
+ Total Signals          : 110
+ Total Nets             : 1461
+ Total Signal Drivers   : 73
+ Total Blocks           : 24
+ Total Primitive Blocks : 6
+ Total Processes        : 35
+ Total Traceable Variables  : 278
+ Total Scalar Nets and Variables : 3269
+ 3269
