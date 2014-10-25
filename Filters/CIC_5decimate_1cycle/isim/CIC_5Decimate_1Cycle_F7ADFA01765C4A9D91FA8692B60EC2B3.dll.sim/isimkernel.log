@@ -1,0 +1,20 @@
+Command line:
+   CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sat Oct 25 14:11:19 2014
+
+
+ Elaboration Time: 0.015601 sec
+ Current Memory Usage: 1018.86 Meg
+
+ Total Signals          : 110
+ Total Nets             : 1223
+ Total Signal Drivers   : 73
+ Total Blocks           : 24
+ Total Primitive Blocks : 6
+ Total Processes        : 35
+ Total Traceable Variables  : 278
+ Total Scalar Nets and Variables : 3036
+

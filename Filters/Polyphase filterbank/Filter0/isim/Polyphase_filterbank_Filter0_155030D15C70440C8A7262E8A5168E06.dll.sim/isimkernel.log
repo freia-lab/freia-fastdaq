@@ -1,0 +1,20 @@
+Command line:
+   Polyphase_filterbank_Filter0_155030D15C70440C8A7262E8A5168E06.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sat Oct 25 14:11:19 2014
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 1016.18 Meg
+
+ Total Signals          : 131
+ Total Nets             : 4089
+ Total Signal Drivers   : 92
+ Total Blocks           : 16
+ Total Primitive Blocks : 5
+ Total Processes        : 18
+ Total Traceable Variables  : 260
+ Total Scalar Nets and Variables : 5789

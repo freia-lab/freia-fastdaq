@@ -1,0 +1,20 @@
+Command line:
+   CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sat Oct 25 14:15:45 2014
+
+
+ Elaboration Time: 0.015601 sec
+
+ Current Memory Usage: 1015.14 Meg
+
+ Total Signals          : 110
+ Total Nets             : 1136
+ Total Signal Drivers   : 73
+ Total Blocks           : 24
+ Total Primitive Blocks : 6
+ Total Processes        : 35
+ Total Traceable Variables  : 278
+ Total Scalar Nets and Variables : 2950
