@@ -1,0 +1,20 @@
+Command line:
+   CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Wed Nov 05 19:57:58 2014
+
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 973.763 Meg
+
+ Total Signals          : 111
+ Total Nets             : 1396
+ Total Signal Drivers   : 73
+ Total Blocks           : 24
+ Total Primitive Blocks : 6
+ Total Processes        : 35
+ Total Traceable Variables  : 278
+ Total Scalar Nets and Variables : 3201
