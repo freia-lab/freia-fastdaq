@@ -981,12 +981,12 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
             <IOModule>IOModuleID:0x109376D5</IOModule>
          </CompatibleIOModuleList>
          <DeclarationPaths>
-            <Absolute>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</Absolute>
+            <Absolute>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</Absolute>
             <MD5>656c310a3786f59b5a9f04f9cab971de</MD5>
-            <RelativeToLabVIEW>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToNiPubDocs>
+            <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels, eight bidirectional DIO channels, four bidirectional PFI channels, and an input clock selector (Internal Sample clock Free Running, Internal Sample Clock locked to an external Reference through the REF IN connector, External Sample Clock through the CLK IN connector, or Internal Sample clock locked to an external Reference clock through Sync Clock).
@@ -3122,8 +3122,8 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
       <Direction>ToCLIP</Direction>
       <HDLName>aclk200</HDLName>
       <LinkToFPGAClock>200 MHz Clock</LinkToFPGAClock>
-      <MaxFreq>200000000.0000</MaxFreq>
-      <MinFreq>200000000.0000</MinFreq>
+      <MaxFreq>200000000,0000</MaxFreq>
+      <MinFreq>200000000,0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Clock 40 MHz">
@@ -3131,8 +3131,8 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
       <Direction>ToCLIP</Direction>
       <HDLName>clk40</HDLName>
       <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
-      <MaxFreq>40000000.00000</MaxFreq>
-      <MinFreq>40000000.00000</MinFreq>
+      <MaxFreq>40000000,00000</MaxFreq>
+      <MinFreq>40000000,00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock">
@@ -3140,8 +3140,8 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
       <Direction>FromCLIP</Direction>
       <HDLName>DivSampleClk</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>200000000.0000</MaxFreq>
-      <MinFreq>100000000.0000</MinFreq>
+      <MaxFreq>200000000,0000</MaxFreq>
+      <MinFreq>100000000,0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock 2x">
@@ -3149,8 +3149,8 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
       <Direction>FromCLIP</Direction>
       <HDLName>SampleClk</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>400000000.0000</MaxFreq>
-      <MinFreq>200000000.0000</MinFreq>
+      <MaxFreq>400000000,0000</MaxFreq>
+      <MinFreq>200000000,0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
 </CLIPConnections></Property>
@@ -7138,18 +7138,20 @@ EEPROM Power EnabledNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Modu
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F7574001C404000018000000800000E617070656E6465642061727261790000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"LowSpeed FIFO 5772"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F7574001C404000018000000400000E617070656E646564206172726179000001000100000004000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"P2P FIFO"ControlLogic=0;NumberOfElements=16395;Type=3;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=2;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;P2P FIFO;DataType=1000800000000001000940070003553332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 0 Rd Data;0;ReadMethodType=boolPFI 0 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 WE;0;WriteMethodType=boolPFI 0 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 Wr Data;0;WriteMethodType=boolPFI 1 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 1 Rd Data;0;ReadMethodType=boolPFI 1 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 WE;0;WriteMethodType=boolPFI 1 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 Wr Data;0;WriteMethodType=boolPFI 2 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 2 Rd Data;0;ReadMethodType=boolPFI 2 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 2 WE;0;WriteMethodType=boolPFI 2 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 2 Wr Data;0;WriteMethodType=boolPFI 3 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 3 Rd Data;0;ReadMethodType=boolPFI 3 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 3 WE;0;WriteMethodType=boolPFI 3 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 3 Wr Data;0;WriteMethodType=boolPLL LockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/PLL Locked;0;ReadMethodType=boolPXI_Clk10NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Clk10;0;ReadMethodType=boolPXI_StarNumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Star;0;ReadMethodType=boolPXI_Trig0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig1;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig2;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig3;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig4;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig5;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig6;0;ReadMethodType=bool;WriteMethodType=boolPXI_Trig7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig7;0;ReadMethodType=bool;WriteMethodType=boolPXIe_DStarBNumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarB;0;ReadMethodType=boolPXIe_DStarCArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXIe/PXIe_DStarC;0;ReadMethodType=bool;WriteMethodType=boolPXIe_Sync100NumberOfSyncRegistersForReadInProject=0;resource=/PXIe/PXIe_Sync100;0;ReadMethodType=boolPXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]RecordLength DMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;RecordLength DMA;DataType=1000800000000001000940030003493332000100000000000000000000;DisableOnOverflowUnderflow=FALSE"SimulatedData 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"SimulatedData 5772"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020005000200001440400001800000040000066F7574707574000001000100000004000000000000000000000000;DisableOnOverflowUnderflow=FALSE"SPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI Device SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Read DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U32SPI ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U32SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolSynchronous Trigger Input N-1NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/Synchronous Trigger Input N-1;0;ReadMethodType=boolSynchronous Trigger Input N-2NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/Synchronous Trigger Input N-2;0;ReadMethodType=boolSynchronous Trigger Input N-3NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/Synchronous Trigger Input N-3;0;ReadMethodType=boolSynchronous Trigger Input NNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/Synchronous Trigger Input N;0;ReadMethodType=boolTDC Local AssertArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Local Assert;0;ReadMethodType=bool;WriteMethodType=boolTDC Local DeassertArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Local Deassert;0;ReadMethodType=bool;WriteMethodType=boolTDC Pulse Width ValidNumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Pulse Width Valid;0;ReadMethodType=boolTDC Pulse WidthNumberOfSyncRegistersForReadInProject=Auto;resource=/TDC IO/TDC Pulse Width;0;ReadMethodType=u16Trigger OutputArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Trigger Output;0;WriteMethodType=boolTrigger WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Trigger WE;0;WriteMethodType=boolUser Command CommitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command Commit;0;WriteMethodType=boolUser Command IdleNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Idle;0;ReadMethodType=boolUser Command StatusNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Status;0;ReadMethodType=U8User CommandArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command;0;WriteMethodType=U8User Data 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Data 0;0;WriteMethodType=U16User Data 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Data 1;0;WriteMethodType=U8User ErrorNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Error;0;ReadMethodType=U8User ReturnNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Return;0;ReadMethodType=U32</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\Public\Documents\LabVIEW-proj\PXIe\Workspace\FPGA Bitfiles\mixer_FPGATarget_FPGAmain_-FFnNgPrUUY.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
 				<Item Name="instr.lib" Type="Folder">
 					<Item Name="NI FlexRIO Counters.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Helper VIs/Counters/NI FlexRIO Counters.lvlib"/>
 					<Item Name="NI FlexRIO Helper VIs.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Helper VIs/NI FlexRIO Helper VIs.lvlib"/>
-					<Item Name="Data Types.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Data Types/Data Types.lvlib"/>
+					<Item Name="Memory.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Memory/FPGA/Memory.lvlib"/>
 				</Item>
 				<Item Name="CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll" Type="Document" URL="../Filters/CIC_5decimate_1cycle/CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll"/>
 				<Item Name="CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll" Type="Document" URL="../Filters/CIC_5decimate_4cycles/CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll"/>
@@ -7166,8 +7168,8 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
 				<Item Name="Polyphase_filterbank_Filter1_C3D6D94C538F4B69A671231CBB16BC71.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter1/Polyphase_filterbank_Filter1_C3D6D94C538F4B69A671231CBB16BC71.dll"/>
 				<Item Name="Polyphase_filterbank_Filter2_600B6E97182E42B4ACFE8408F669A62F.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter2/Polyphase_filterbank_Filter2_600B6E97182E42B4ACFE8408F669A62F.dll"/>
 				<Item Name="Polyphase_filterbank_Filter3_90A56C0CA55345308F9FA6BEDF7A9824.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter3/Polyphase_filterbank_Filter3_90A56C0CA55345308F9FA6BEDF7A9824.dll"/>
-				<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="../Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -7277,6 +7279,7 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/FPGA Bitfiles/mixer_FPGATarget_FPGAmain_-FFnNgPrUUY.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/E/Projekt/Freia/Mixer/source/mixer.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -7841,7 +7844,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="CIC_5decimate_4cycles.vi" Type="VI" URL="../FPGA/Filters/CIC_5decimate_4cycles.vi"/>
 			<Item Name="CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll" Type="Document" URL="../Filters/CIC_5decimate_4cycles/CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll"/>
 			<Item Name="CIC_downsample_reconfig.vi" Type="VI" URL="../FPGA/Filters/CIC_downsample_reconfig.vi"/>
-			<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
+			<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="../Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
 			<Item Name="ConvertI16FXP.vi" Type="VI" URL="../FPGA/subVIs/ConvertI16FXP.vi"/>
 			<Item Name="DataMode.ctl" Type="VI" URL="../FPGA/DataMode.ctl"/>
 			<Item Name="DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll" Type="Document" URL="../FPGA/DDS_1/DDS Compiler/DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll"/>
@@ -7863,7 +7866,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="FIR_5decimate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5decimate_25cycles.vi"/>
 			<Item Name="FIR_5decimate_25cycles_729C3C7D1F344495BDF41BE06D896C1D.dll" Type="Document" URL="../Filters/FIR_5decimate_25cycles/FIR_5decimate_25cycles_729C3C7D1F344495BDF41BE06D896C1D.dll"/>
 			<Item Name="Fir_reconfig.vi" Type="VI" URL="../FPGA/Filters/Fir_reconfig.vi"/>
-			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 			<Item Name="I16 array size 4.ctl" Type="VI" URL="../FPGA/subVIs/I16 array size 4.ctl"/>
 			<Item Name="IQramp.vi" Type="VI" URL="../FPGA/IQramp.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
