@@ -1,0 +1,29 @@
+%filter stage1
+Hd1 = FminFilter(4, 7.05e6, 800e6, 0.02, 120);
+num = -3*round(Hd1.numerator./min(Hd1.numerator));
+%The four filter parts can be retrieved like this:
+% num(1:4:end)
+% num(2:4:end)
+% num(3:4:end)
+% num(4:4:end)
+
+%filter2: downsample 5 from 200MHz to 40Mhz
+%filter2 will run in 1/4 cycles
+Hd2 = FminFilter(5, 5e6, 200e6, 0.02, 100);
+coewrite(Hd2, 10, 'filter2_downsample5.coe');
+%filter3: downsample 5 from 40 to 8Mhz (same as above..)
+%filter3 will run 1/2 cycles
+
+%filter4: downsample 4 from 8 to 2Mhz
+%filter4 will run in
+Hd4 = FminFilter(3, 1e6, 8e6, 0.02, 100);
+coewrite(Hd4, 10, 'filter4_downsample4.coe');
+
+
+%filter5: downsample 2 from 200MHz to 1Mhz
+d = fdesign.lowpass(450e3/2e6, 500e3/2e6, 0.02, 80);
+Hd5 = design(d);
+Hd5.Arithmetic = 'Fixed';
+Hd5.CoeffWordLength = 18;
+coewrite(Hd5, 10, 'filter5_downsample2.coe');
+

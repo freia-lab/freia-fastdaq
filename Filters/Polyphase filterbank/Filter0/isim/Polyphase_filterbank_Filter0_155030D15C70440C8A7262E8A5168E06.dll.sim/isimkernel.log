@@ -3,12 +3,12 @@ Command line:
      -log  xsiSetupLog
      -sysgen
 
-Sun Nov 02 16:47:36 2014
+Fri Nov 28 17:07:24 2014
 
 
- Elaboration Time: 0 sec
+ Elaboration Time: 0.0312 sec
 
- Current Memory Usage: 1017.14 Meg
+ Current Memory Usage: 839.631 Meg
 
  Total Signals          : 131
  Total Nets             : 4089

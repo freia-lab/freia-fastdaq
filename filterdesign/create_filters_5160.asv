@@ -1,0 +1,22 @@
+%Filter 1: CIC decimator 5, 4 stages, 1 cycle per sample (1250MHz -> 250MHz)
+
+%Filter 2: FIR decimator 5 (250MHz -> 50Mhz)
+%5 cycles per sample
+Hd2 = FminFilterCicComp(5, 4, 5e6, 1250e6, 0.02, 100);
+coewrite(Hd2, 10, 'FIR_5decimate_5cycles.coe');
+
+%Filter 3: CIC decimator 5, 4 stages, 5 cycles per sample (50MHz -> 10MHz)
+
+%Filter 4: FIR decimator 5 (10MHz -> 2Mhz)
+%25 cycles per sample
+Hd4 = FminFilterCicComp(5, 4, 1e6, 10e6, 0.02, 100);
+coewrite(Hd4, 10, 'FIR_5decimate_25cycles.coe');
+
+%filter5: downsample 2 from 2MHz to 1Mhz
+%filter5 will run in 1/40 (is actually 1/50..)
+d = fdesign.lowpass(450e3/2e6, 500e3/2e6, 0.02, 80);
+Hd5 = design(d);
+Hd5.Arithmetic = 'Fixed';
+Hd5.CoeffWordLength = 18;
+coewrite(Hd5, 10, 'FIR_2decimate_125cycles.coe');
+
