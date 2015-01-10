@@ -13,13 +13,19 @@ num(2:2:end)
 %Filter 2: CIC decimator 5, 4 stages, 1 cycle per sample (125MHz ->
 %25MHz)
 
-%Filter3: FIR decimator 5. (25MHz -> 5MHz)
+%Filter 3: CIC decimator 5, 4 stages, 1 cycles per sample (25MHz -> 5MHz)
+
+%Filter3: FIR decimator 5. (5MHz -> MHz)
 %1 cycles per sample
-Hd3 = FminFilterCicComp(5, 4, 2e6, 25e6, 0.02, 100);
+d = fdesign.ciccomp(1,4,0.18, 0.22, 0.04, 80);
+Hd4 = design(d);
+Hd4.Arithmetic = 'Fixed';
+Hd4.CoeffWordLength = 18;
+
 if(write_files)
-    coewrite(Hd3, 10, 'FIR_5decimate_ccomp_25MHz.coe');
+    coewrite(Hd4, 10, 'FIR_5decimate_ccomp_5MHz.coe');
 end
 
-%Filter 4: CIC decimator 5, 4 stages, 4 cycles per sample (5MHz -> 1MHz)
+
 
 
