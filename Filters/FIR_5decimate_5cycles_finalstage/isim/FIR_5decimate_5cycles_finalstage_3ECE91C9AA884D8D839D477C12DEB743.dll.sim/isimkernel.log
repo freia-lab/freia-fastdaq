@@ -3,12 +3,12 @@ Command line:
      -log  xsiSetupLog
      -sysgen
 
-Sun Feb 22 10:47:00 2015
+Thu Mar 05 16:27:15 2015
 
 
  Elaboration Time: 0 sec
 
- Current Memory Usage: 1152.3 Meg
+ Current Memory Usage: 639.767 Meg
 
  Total Signals          : 131
  Total Nets             : 5066
@@ -18,4 +18,4 @@ Sun Feb 22 10:47:00 2015
  Total Processes        : 18
  Total Traceable Variables  : 260
  Total Scalar Nets and Variables : 8768
-8768
+768
