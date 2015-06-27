@@ -13286,7 +13286,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		<Item Name="Scope_5160.vi" Type="VI" URL="../Scope_5160.vi"/>
 		<Item Name="Scope_5772.vi" Type="VI" URL="../Scope_5772.vi"/>
 		<Item Name="Scope_5782.vi" Type="VI" URL="../Scope_5782.vi"/>
-		<Item Name="Scope_5782_PID_test.vi" Type="VI" URL="../Scope_5782_PID_test.vi"/>
+		<Item Name="Scope_5782_PID.vi" Type="VI" URL="../Scope_5782_PID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niScope Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Abort.vi"/>
