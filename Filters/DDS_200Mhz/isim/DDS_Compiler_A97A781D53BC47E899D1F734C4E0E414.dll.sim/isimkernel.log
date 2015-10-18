@@ -1,0 +1,21 @@
+Command line:
+   DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sat Oct 17 19:35:38 2015
+
+
+ Elaboration Time: 0.0312 sec
+
+
+ Current Memory Usage: 1057.75 Meg
+
+ Total Signals          : 1011
+ Total Nets             : 10696
+ Total Signal Drivers   : 288
+ Total Blocks           : 278
+ Total Primitive Blocks : 138
+ Total Processes        : 261
+ Total Traceable Variables  : 1314
+ Total Scalar Nets and Variables : 56492
