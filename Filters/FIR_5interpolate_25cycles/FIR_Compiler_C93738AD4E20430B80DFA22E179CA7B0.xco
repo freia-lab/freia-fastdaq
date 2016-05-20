@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.4
-# Date: Sat Apr 23 10:55:45 2016
+# Date: Thu May 19 16:50:42 2016
 #
 ##############################################################
 #
@@ -52,7 +52,7 @@ CSET coefficient_structure=Symmetric
 CSET coefficient_width=18
 CSET coefficientsource=COE_File
 CSET coefficientvector=6,0,-4,-3,5,6,-6,-13,7,44,64,44,7,-13,-6,6,5,-3,-4,0,6
-CSET columnconfig=2
+CSET columnconfig=4
 CSET component_name=FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0
 CSET data_buffer_type=Automatic
 CSET data_fractional_bits=0
@@ -109,4 +109,4 @@ CSET zero_pack_factor=1
 MISC pkg_timestamp=2012-11-05T14:55:01Z
 # END Extra information
 GENERATE
-# CRC: b2c01197
+# CRC: 872f8a10
