@@ -1,0 +1,20 @@
+Command line:
+   FIR_Compiler_5FB9F0BADE11496F8820C1DDE59652D9.dll
+     -log  xsiSetupLog
+     -sysgen
+
+Sun Jun 05 14:41:38 2016
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 1089.75 Meg
+
+ Total Signals          : 131
+ Total Nets             : 4644
+ Total Signal Drivers   : 92
+ Total Blocks           : 16
+ Total Primitive Blocks : 5
+ Total Processes        : 18
+ Total Traceable Variables  : 260
+ Total Scalar Nets and Variables : 6865
