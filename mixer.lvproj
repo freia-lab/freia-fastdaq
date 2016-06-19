@@ -987,7 +987,7 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5772\2.0.0\K7\Ni5772\LvFpgaTarget\Ni5772.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels, eight bidirectional DIO channels, four bidirectional PFI channels, and an input clock selector (Internal Sample clock Free Running, Internal Sample Clock locked to an external Reference through the REF IN connector, External Sample Clock through the CLK IN connector, or Internal Sample clock locked to an external Reference clock through Sync Clock).
@@ -6228,8 +6228,8 @@ LowSpeed FIFO 5160"ControlLogic=0;NumberOfElements=517;Type=0;ReadArbs=Arbitrate
 				<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 				<Item Name="FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll" Type="Document" URL="../Filters/FIR_5decimate_2cycle/FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll"/>
 				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -6848,7 +6848,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -13949,8 +13949,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 				<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 				<Item Name="FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll" Type="Document" URL="../Filters/FIR_5decimate_2cycle/FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll"/>
 				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -14809,7 +14809,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -18389,7 +18389,6 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
 				<Item Name="Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter0/Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll"/>
 				<Item Name="Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter1/Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll"/>
@@ -18415,8 +18414,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 				<Item Name="DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll" Type="Document" URL="../Filters/DDS_200Mhz/DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll"/>
 				<Item Name="PID_calc_AmplitudeFeedback_test_timing.vi" Type="VI" URL="../FPGA/AM-PID/PID_calc_AmplitudeFeedback_test_timing.vi"/>
 				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -18503,6 +18502,65 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 					<Property Name="TargetName" Type="Str">FPGA Target 3</Property>
 					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target 3/FPGAmain_5782_Fast_PID_v2.vi</Property>
+				</Item>
+				<Item Name="array_size_test" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">array_size_test</Property>
+					<Property Name="Comp.BitfileName" Type="Str">mixer_FPGATarget3_arraysizetest_DYaVQgTtPqo.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Public/Documents/LabVIEW-proj/PXIe/in_progress/source/freia-fast-daq-new/FPGA Bitfiles/mixer_FPGATarget3_arraysizetest_DYaVQgTtPqo.lvbitx</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Users/Public/Documents/LabVIEW-proj/PXIe/in_progress/source/freia-fast-daq-new/mixer.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+					<Property Name="TargetName" Type="Str">FPGA Target 3</Property>
+					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target 3/FPGA/array_size_test.vi</Property>
+				</Item>
+				<Item Name="array_size_test_cast" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">array_size_test_cast</Property>
+					<Property Name="Comp.BitfileName" Type="Str">mixer_FPGATarget3_arraysizetestcas_OQCYGX7vZOw.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Users/Public/Documents/LabVIEW-proj/PXIe/in_progress/source/freia-fast-daq-new/mixer.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+					<Property Name="TargetName" Type="Str">FPGA Target 3</Property>
+					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target 3/FPGA/array_size_test_cast.vi</Property>
 				</Item>
 			</Item>
 		</Item>
@@ -18988,9 +19046,10 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		<Item Name="Scope_5772.vi" Type="VI" URL="../Scope_5772.vi"/>
 		<Item Name="Scope_5782.vi" Type="VI" URL="../Scope_5782.vi"/>
 		<Item Name="Scope_5782_AM_PID.vi" Type="VI" URL="../Scope_5782_AM_PID.vi"/>
-		<Item Name="Scope_5782_Dual_PID.vi" Type="VI" URL="../../in_progress/source/freia-fast-daq-new/Scope_5782_Dual_PID.vi"/>
+		<Item Name="Scope_5782_Dual_PID.vi" Type="VI" URL="../Scope_5782_Dual_PID.vi"/>
 		<Item Name="Scope_5782_Dual_PID_2channel.vi" Type="VI" URL="../Scope_5782_Dual_PID_2channel.vi"/>
 		<Item Name="Scope_5782_PID.vi" Type="VI" URL="../Scope_5782_PID.vi"/>
+		<Item Name="Scope_Fast_PID.vi" Type="VI" URL="../Scope_Fast_PID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niScope Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Abort.vi"/>
@@ -19148,13 +19207,14 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="FIR_5interpolate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_25cycles.vi"/>
 			<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 			<Item Name="Fir_reconfig.vi" Type="VI" URL="../FPGA/Filters/Fir_reconfig.vi"/>
-			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 			<Item Name="FormatDMAelement_2.vi" Type="VI" URL="../FPGA/FormatDMAelement_2.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
 			<Item Name="FPGAmain5160_D39aRPcyb44.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain5160_D39aRPcyb44.lvbitx"/>
 			<Item Name="FPGAmain5782_W462Q9ePIkg.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain5782_W462Q9ePIkg.lvbitx"/>
 			<Item Name="FPGAmain_5782_AM_PID_x2XSfAlIk7E.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_AM_PID_x2XSfAlIk7E.lvbitx"/>
-			<Item Name="FPGAmain_5782_Dual_PID_1Hh0+AVfYHk.lvbitx" Type="Document" URL="../../in_progress/source/freia-fast-daq-new/FPGA Bitfiles/FPGAmain_5782_Dual_PID_1Hh0+AVfYHk.lvbitx"/>
+			<Item Name="FPGAmain_5782_Dual_PID_1Hh0+AVfYHk.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Dual_PID_1Hh0+AVfYHk.lvbitx"/>
+			<Item Name="FPGAmain_5782_Fast_PID_v2_cXyChA7swvs.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Fast_PID_v2_cXyChA7swvs.lvbitx"/>
 			<Item Name="FPGAmain_5782_phase_PID_95jwfTC-PxA.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_phase_PID_95jwfTC-PxA.lvbitx"/>
 			<Item Name="FPGAmain_KrEMQQZCiXk.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_KrEMQQZCiXk.lvbitx"/>
 			<Item Name="FPGAoutputfixed125_MHz_nv4b6Zp6nDA.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfixed125_MHz_nv4b6Zp6nDA.lvbitx"/>
@@ -19182,6 +19242,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="MixAndDownsample_5782.vi" Type="VI" URL="../FPGA/Input_5782/MixAndDownsample_5782.vi"/>
 			<Item Name="mixer_FPGATarget2_5782inputtest_r0B46DafvIs.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget2_5782inputtest_r0B46DafvIs.lvbitx"/>
 			<Item Name="mixer_FPGATarget2_testoutfrqfpga2_Hp3WpIpy1LI.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget2_testoutfrqfpga2_Hp3WpIpy1LI.lvbitx"/>
+			<Item Name="mixer_FPGATarget3_arraysizetest_DYaVQgTtPqo.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget3_arraysizetest_DYaVQgTtPqo.lvbitx"/>
 			<Item Name="mixer_FPGATarget_FPGA5160minimal_MG3sHgywKFM.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget_FPGA5160minimal_MG3sHgywKFM.lvbitx"/>
 			<Item Name="mixer_FPGATarget_FPGAmain5160_6pHC8ZmJ734.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget_FPGAmain5160_6pHC8ZmJ734.lvbitx"/>
 			<Item Name="mixer_FPGATarget_FPGAmain5772_HJBBnI0CKw8.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget_FPGAmain5772_HJBBnI0CKw8.lvbitx"/>
@@ -19191,7 +19252,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Multiply_IQ_add.vi" Type="VI" URL="../FPGA/subVIs/Multiply_IQ_add.vi"/>
 			<Item Name="Multiply_IQ_subtract.vi" Type="VI" URL="../FPGA/subVIs/Multiply_IQ_subtract.vi"/>
 			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
-			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
