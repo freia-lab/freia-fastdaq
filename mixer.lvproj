@@ -18579,6 +18579,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="CIC_downsample_reconfig.vi" Type="VI" URL="../FPGA/Filters/CIC_downsample_reconfig.vi"/>
 			<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="../Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
 			<Item Name="ConvertI16FXP.vi" Type="VI" URL="../FPGA/subVIs/ConvertI16FXP.vi"/>
+			<Item Name="CountTimeouts.vi" Type="VI" URL="../FPGA/subVIs/CountTimeouts.vi"/>
 			<Item Name="DataMode.ctl" Type="VI" URL="../FPGA/DataMode.ctl"/>
 			<Item Name="DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll" Type="Document" URL="../Filters/DDS_200Mhz/DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll"/>
 			<Item Name="DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll" Type="Document" URL="../FPGA/DDS_1/DDS Compiler/DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll"/>
