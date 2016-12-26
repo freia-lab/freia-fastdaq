@@ -23123,6 +23123,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="FPGAmain5782_W462Q9ePIkg.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain5782_W462Q9ePIkg.lvbitx"/>
 			<Item Name="FPGAmain_5782_AM_PID_x2XSfAlIk7E.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_AM_PID_x2XSfAlIk7E.lvbitx"/>
 			<Item Name="FPGAmain_5782_Dual_PID_1Hh0+AVfYHk.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Dual_PID_1Hh0+AVfYHk.lvbitx"/>
+			<Item Name="FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx"/>
 			<Item Name="FPGAmain_5782_phase_PID_95jwfTC-PxA.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_phase_PID_95jwfTC-PxA.lvbitx"/>
 			<Item Name="FPGAmain_KrEMQQZCiXk.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_KrEMQQZCiXk.lvbitx"/>
 			<Item Name="FPGAoutputfixed125_MHz_nv4b6Zp6nDA.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfixed125_MHz_nv4b6Zp6nDA.lvbitx"/>
