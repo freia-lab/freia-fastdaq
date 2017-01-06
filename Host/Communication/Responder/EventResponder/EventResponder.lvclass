@@ -30,7 +30,7 @@
 	<Item Name="Emit.vi" Type="VI" URL="../Emit.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(Q!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!9&amp;E6W:7ZU5G6T='^O:'6S,GRW9WRB=X-!!"*&amp;&gt;G6O&gt;&amp;*F=X"P&lt;G2F=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!=1$RT!&gt;471!!!!%2:(*J&gt;G6S8X.U982V=SZD&gt;'Q!6U!7!!='4G^S&lt;7&amp;M"V.U98*U&gt;8!01W^O&lt;G6D&gt;'FP&lt;C"M&lt;X.U#V*F9W^O&lt;G6D&gt;'6E"V2J&lt;76P&gt;81%372M:12#&gt;8.Z!!!.:(*J&gt;G6S)(.U982V=Q!11$$`````"F.F&lt;G2F=A!!#U!$!!25?8"F!!!-1&amp;-(6G&amp;S;7&amp;O&gt;!!R!0(-DP/Z!!!!!1RS:8.Q&lt;WZT:3ZD&gt;'Q!(%"1!!1!"Q!)!!E!#ABS:8.Q&lt;WZT:1!!.%"Q!"Y!!"A728:F&lt;H23:8.Q&lt;WZE:8)O&lt;(:D&lt;'&amp;T=Q!!%56W:7ZU5G6T='^O:'6S)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!#Q!-!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!#1!!!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">50331776</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>

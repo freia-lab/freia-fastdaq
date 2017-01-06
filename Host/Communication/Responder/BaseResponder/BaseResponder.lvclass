@@ -72,12 +72,12 @@ Overide the BaseResponder class with your own implementation to create responder
 	<Item Name="Emit.vi" Type="VI" URL="../Emit.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(K!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5*B=W63:8.Q&lt;WZE:8)O&lt;(:D&lt;'&amp;T=Q!21G&amp;T:6*F=X"P&lt;G2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"R!0(-"V.:!!!!!2&amp;E=GFW:8*@=X2B&gt;(6T,G.U&lt;!"81"9!"Q:/&lt;X*N97Q(5X2B=H2V=!^$&lt;WZO:7.U;7^O)'RP=X1,5G6D&lt;WZO:7.U:71(6'FN:7^V&gt;!2*:'RF"%*V=XE!!!VE=GFW:8)A=X2B&gt;(6T!""!-0````]'5W6O:'6S!!!,1!-!"&amp;2Z='5!!!R!5Q&gt;798*J97ZU!$%!]=S/]\E!!!!"$(*F=X"P&lt;H.F,G.U&lt;!!=1&amp;!!"!!(!!A!#1!+#(*F=X"P&lt;H.F!!!S1(!!(A!!&amp;R6#98.F5G6T='^O:'6S,GRW9WRB=X-!%%*B=W63:8.Q&lt;WZE:8)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!#Q!-!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1352671744</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5*B=W63:8.Q&lt;WZE:8)O&lt;(:D&lt;'&amp;T=Q!21G&amp;T:6*F=X"P&lt;G2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$$`````"%ZB&lt;75!!$*!=!!?!!!8&amp;5*B=W63:8.Q&lt;WZE:8)O&lt;(:D&lt;'&amp;T=Q!11G&amp;T:6*F=X"P&lt;G2F=C"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
