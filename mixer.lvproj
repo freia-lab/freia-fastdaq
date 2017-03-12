@@ -513,7 +513,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -8116,8 +8116,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 				<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 				<Item Name="FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll" Type="Document" URL="../Filters/FIR_5decimate_2cycle/FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll"/>
 				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -9244,7 +9244,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
             <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to four analog input channels, eight PFI lines, and an input clock selector (Internal Sample clock, Internal Sample clock locked to an external Reference clock through CLK_IN, External Sample clock through CLK_IN, Internal Sample clock locked to an external Reference clock through IoModSyncClk, or External Sample clock through IoModSyncClk).
@@ -15056,7 +15056,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="FIR_5interpolate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_25cycles.vi"/>
 			<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 			<Item Name="Fir_reconfig.vi" Type="VI" URL="../FPGA/Filters/Fir_reconfig.vi"/>
-			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 			<Item Name="FormatDMAelement_2.vi" Type="VI" URL="../FPGA/FormatDMAelement_2.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
 			<Item Name="FPGAmain5160_D39aRPcyb44.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain5160_D39aRPcyb44.lvbitx"/>
