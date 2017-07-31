@@ -508,12 +508,12 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
             <IOModule>IOModuleID:0x109375BC</IOModule>
          </CompatibleIOModuleList>
          <DeclarationPaths>
-            <Absolute>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</Absolute>
+            <Absolute>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</Absolute>
             <MD5>292c8363acbf68c9a3560a2e53360f81</MD5>
-            <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiPubDocs>
+            <RelativeToLabVIEW>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782MultiSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -2244,8 +2244,8 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
       <Direction>ToCLIP</Direction>
       <HDLName>IdelayClk200</HDLName>
       <LinkToFPGAClock>200 MHz Clock</LinkToFPGAClock>
-      <MaxFreq>201000000,0000</MaxFreq>
-      <MinFreq>199000000,0000</MinFreq>
+      <MaxFreq>201000000.0000</MaxFreq>
+      <MinFreq>199000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Clock 40 MHz">
@@ -2253,8 +2253,8 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
       <Direction>ToCLIP</Direction>
       <HDLName>Clk40</HDLName>
       <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
-      <MaxFreq>41000000,00000</MaxFreq>
-      <MinFreq>39000000,00000</MinFreq>
+      <MaxFreq>41000000.00000</MaxFreq>
+      <MinFreq>39000000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock">
@@ -2262,8 +2262,8 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
       <Direction>FromCLIP</Direction>
       <HDLName>IoModDataClock</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>125000000,0000</MaxFreq>
-      <MinFreq>82500000,00000</MinFreq>
+      <MaxFreq>125000000.0000</MaxFreq>
+      <MinFreq>82500000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock x2">
@@ -2271,8 +2271,8 @@ The faster, native ADC clock is also available as &quot;Data Clock x2&quot; for 
       <Direction>FromCLIP</Direction>
       <HDLName>IoModDataClockX2</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>250000000,0000</MaxFreq>
-      <MinFreq>125000000,0000</MinFreq>
+      <MaxFreq>250000000.0000</MaxFreq>
+      <MinFreq>125000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
 </CLIPConnections></Property>
@@ -8090,7 +8090,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 				<Item Name="instr.lib" Type="Folder">
 					<Item Name="NI FlexRIO Helper VIs.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Helper VIs/NI FlexRIO Helper VIs.lvlib"/>
 					<Item Name="NI FlexRIO Counters.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Helper VIs/Counters/NI FlexRIO Counters.lvlib"/>
-					<Item Name="Memory.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Memory/FPGA/Memory.lvlib"/>
+					<Item Name="Data Types.lvlib" Type="Library" URL="/&lt;instrlib&gt;/FlexRIO/Libraries/Data Types/Data Types.lvlib"/>
 				</Item>
 				<Item Name="CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll" Type="Document" URL="../Filters/CIC_5decimate_1cycle/CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll"/>
 				<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="../Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
@@ -8116,8 +8116,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
 				<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 				<Item Name="FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll" Type="Document" URL="../Filters/FIR_5decimate_2cycle/FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll"/>
 				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -9239,12 +9239,12 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
             <IOModule>IOModuleID:0x109374C6</IOModule>
          </CompatibleIOModuleList>
          <DeclarationPaths>
-            <Absolute>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</Absolute>
+            <Absolute>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</Absolute>
             <MD5>c9b4e59606dac0f551a478e7bf3ea452</MD5>
-            <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToNiPubDocs>
+            <RelativeToLabVIEW>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\4.1.0\K7\NI5761MultiSampleClip\LvFpgaTarget\NI5761MultiSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to four analog input channels, eight PFI lines, and an input clock selector (Internal Sample clock, Internal Sample clock locked to an external Reference clock through CLK_IN, External Sample clock through CLK_IN, Internal Sample clock locked to an external Reference clock through IoModSyncClk, or External Sample clock through IoModSyncClk).
@@ -12153,8 +12153,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
       <Direction>ToCLIP</Direction>
       <HDLName>IdelayClk200</HDLName>
       <LinkToFPGAClock>200MHz</LinkToFPGAClock>
-      <MaxFreq>200000000,0000</MaxFreq>
-      <MinFreq>200000000,0000</MinFreq>
+      <MaxFreq>200000000.0000</MaxFreq>
+      <MinFreq>200000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Clk40">
@@ -12162,8 +12162,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
       <Direction>ToCLIP</Direction>
       <HDLName>Clk40</HDLName>
       <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
-      <MaxFreq>40000000,00000</MaxFreq>
-      <MinFreq>40000000,00000</MinFreq>
+      <MaxFreq>40000000.00000</MaxFreq>
+      <MinFreq>40000000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock">
@@ -12171,8 +12171,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001002000000006FFFFF
       <Direction>FromCLIP</Direction>
       <HDLName>DivSampleClk</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>87500000,00000</MaxFreq>
-      <MinFreq>125000000,0000</MinFreq>
+      <MaxFreq>87500000.00000</MaxFreq>
+      <MinFreq>125000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
 </CLIPConnections></Property>
@@ -15010,10 +15010,12 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="calc_deltaF.vi" Type="VI" URL="../FPGA/calc_deltaF.vi"/>
 			<Item Name="Calc_phase_error.vi" Type="VI" URL="../FPGA/PID/Calc_phase_error.vi"/>
 			<Item Name="CalcMagnitude.vi" Type="VI" URL="../FPGA/AM-PID/CalcMagnitude.vi"/>
+			<Item Name="calcualte_Vr_Vi.vi" Type="VI" URL="../FPGA/cavity model/calcualte_Vr_Vi.vi"/>
 			<Item Name="CalculateAmplitudeModulation.vi" Type="VI" URL="../FPGA/Input_5782/CalculateAmplitudeModulation.vi"/>
 			<Item Name="CalculateDelay.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay.vi"/>
 			<Item Name="CalculateDelay2.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay2.vi"/>
 			<Item Name="CalculateDelay_2chan.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay_2chan.vi"/>
+			<Item Name="cavity_model.vi" Type="VI" URL="../FPGA/cavity model/cavity_model.vi"/>
 			<Item Name="CIC_5decimate_1cycle.vi" Type="VI" URL="../FPGA/Filters/CIC_5decimate_1cycle.vi"/>
 			<Item Name="CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll" Type="Document" URL="../Filters/CIC_5decimate_1cycle/CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll"/>
 			<Item Name="CIC_5decimate_4cycles.vi" Type="VI" URL="../FPGA/Filters/CIC_5decimate_4cycles.vi"/>
@@ -15029,6 +15031,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll" Type="Document" URL="../FPGA/DDS_1/DDS Compiler/DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll"/>
 			<Item Name="Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter0/Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll"/>
 			<Item Name="Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter1/Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll"/>
+			<Item Name="delaytest2_0waIOfTFc3I.lvbitx" Type="Document" URL="../FPGA Bitfiles/delaytest2_0waIOfTFc3I.lvbitx"/>
 			<Item Name="DownsampleStage2.vi" Type="VI" URL="../FPGA/DownsampleStage2.vi"/>
 			<Item Name="DownsampleStage2_5160.vi" Type="VI" URL="../FPGA/highspeed input/DownsampleStage2_5160.vi"/>
 			<Item Name="DownsampleStage2_5160_singlechannel.vi" Type="VI" URL="../FPGA/highspeed input/DownsampleStage2_5160_singlechannel.vi"/>
@@ -15056,7 +15059,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="FIR_5interpolate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_25cycles.vi"/>
 			<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 			<Item Name="Fir_reconfig.vi" Type="VI" URL="../FPGA/Filters/Fir_reconfig.vi"/>
-			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 			<Item Name="FormatDMAelement_2.vi" Type="VI" URL="../FPGA/FormatDMAelement_2.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
 			<Item Name="FPGAmain5160_D39aRPcyb44.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain5160_D39aRPcyb44.lvbitx"/>
