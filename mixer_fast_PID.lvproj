@@ -507,12 +507,12 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
             <IOModule>IOModuleID:0x109375BC</IOModule>
          </CompatibleIOModuleList>
          <DeclarationPaths>
-            <Absolute>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</Absolute>
+            <Absolute>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</Absolute>
             <MD5>5db1b15e0823e953912b5086da2ba29a</MD5>
-            <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiPubDocs>
+            <RelativeToLabVIEW>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -2387,8 +2387,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>ToCLIP</Direction>
       <HDLName>IdelayClk200</HDLName>
       <LinkToFPGAClock>200 MHz Clock</LinkToFPGAClock>
-      <MaxFreq>201000000,0000</MaxFreq>
-      <MinFreq>199000000,0000</MinFreq>
+      <MaxFreq>201000000.0000</MaxFreq>
+      <MinFreq>199000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Clock 40 MHz">
@@ -2396,8 +2396,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>ToCLIP</Direction>
       <HDLName>Clk40</HDLName>
       <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
-      <MaxFreq>41000000,00000</MaxFreq>
-      <MinFreq>39000000,00000</MinFreq>
+      <MaxFreq>41000000.00000</MaxFreq>
+      <MinFreq>39000000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock">
@@ -2405,8 +2405,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>FromCLIP</Direction>
       <HDLName>IoModDataClock</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>250000000,0000</MaxFreq>
-      <MinFreq>125000000,0000</MinFreq>
+      <MaxFreq>250000000.0000</MaxFreq>
+      <MinFreq>125000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock Div 2">
@@ -2414,8 +2414,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>FromCLIP</Direction>
       <HDLName>IoModDataClockDiv2</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>125000000,0000</MaxFreq>
-      <MinFreq>82500000,00000</MinFreq>
+      <MaxFreq>125000000.0000</MaxFreq>
+      <MinFreq>82500000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
 </CLIPConnections></Property>
@@ -3865,8 +3865,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 				<Item Name="PID_calc_AmplitudeFeedback_test_timing.vi" Type="VI" URL="../FPGA/AM-PID/PID_calc_AmplitudeFeedback_test_timing.vi"/>
 				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
 				<Item Name="TestSignalIndex.vi" Type="VI" URL="../Host/Test/TestSignalIndex.vi"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
+				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -3893,6 +3893,9 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 				<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
 				<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
 				<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
+				<Item Name="niFpgaRegisterEmulationFpgaImpl.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Register/Emulation/niFpgaRegisterEmulationFpgaImpl.vi"/>
+				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_000.vi"/>
+				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_001.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_001.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGAmain_5782_Fast_PID" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3937,51 +3940,22 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 				<Item Name="niScope Configure Horizontal Timing.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Horizontal/niScope Configure Horizontal Timing.vi"/>
 				<Item Name="niScope Configure Trigger (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger (poly).vi"/>
 				<Item Name="niScope Configure Trigger Digital.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Digital.vi"/>
-				<Item Name="niScope Configure Trigger Edge.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Edge.vi"/>
 				<Item Name="niScope Configure Trigger Hysteresis.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Hysteresis.vi"/>
 				<Item Name="niScope Configure Trigger Immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Immediate.vi"/>
 				<Item Name="niScope Configure Trigger Software.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Software.vi"/>
-				<Item Name="niScope Configure Trigger Window.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Window.vi"/>
 				<Item Name="niScope Configure Vertical.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Vertical/niScope Configure Vertical.vi"/>
-				<Item Name="niScope Configure Video Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Video Trigger.vi"/>
 				<Item Name="niScope Fetch (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch (poly).vi"/>
-				<Item Name="niScope Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 8.vi"/>
 				<Item Name="niScope Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 16.vi"/>
-				<Item Name="niScope Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 32.vi"/>
-				<Item Name="niScope Fetch Cluster Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Cluster Complex Double.vi"/>
-				<Item Name="niScope Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Cluster.vi"/>
-				<Item Name="niScope Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex Double.vi"/>
-				<Item Name="niScope Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex WDT.vi"/>
-				<Item Name="niScope Fetch Error Chain.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Error Chain.vi"/>
-				<Item Name="niScope Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch WDT.vi"/>
 				<Item Name="niScope Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch.vi"/>
-				<Item Name="niScope Get Normalization Coefficients.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/niScope Get Normalization Coefficients.vi"/>
 				<Item Name="niScope Get Scaling Coefficients.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/niScope Get Scaling Coefficients.vi"/>
-				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
 				<Item Name="niScope Get Stream Endpoint Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Stream Endpoint Handle.vi"/>
 				<Item Name="niScope Get Wfm Coefficients (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/niScope Get Wfm Coefficients (poly).vi"/>
 				<Item Name="niScope Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Initialize.vi"/>
 				<Item Name="niScope Initiate Acquisition.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Initiate Acquisition.vi"/>
-				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
-				<Item Name="niScope Multi Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 8.vi"/>
-				<Item Name="niScope Multi Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 16.vi"/>
-				<Item Name="niScope Multi Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 32.vi"/>
-				<Item Name="niScope Multi Fetch Cluster Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster Complex Double.vi"/>
-				<Item Name="niScope Multi Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster.vi"/>
-				<Item Name="niScope Multi Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex Double.vi"/>
-				<Item Name="niScope Multi Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex WDT.vi"/>
-				<Item Name="niScope Multi Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch WDT.vi"/>
-				<Item Name="niScope Multi Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch.vi"/>
-				<Item Name="niScope polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope polarity.ctl"/>
 				<Item Name="niScope Send Software Trigger Edge.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Send Software Trigger Edge.vi"/>
-				<Item Name="niScope signal format.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope signal format.ctl"/>
-				<Item Name="niScope timestamp type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope timestamp type.ctl"/>
 				<Item Name="niScope trigger coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger coupling.ctl"/>
 				<Item Name="niScope trigger slope.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger slope.ctl"/>
 				<Item Name="niScope trigger source digital.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source digital.ctl"/>
-				<Item Name="niScope trigger source.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source.ctl"/>
-				<Item Name="niScope trigger window mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger window mode.ctl"/>
-				<Item Name="niScope tv event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope tv event.ctl"/>
 				<Item Name="niScope vertical coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope vertical coupling.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
@@ -4129,7 +4103,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 			<Item Name="FIR_5interpolate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_25cycles.vi"/>
 			<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
 			<Item Name="Fir_reconfig.vi" Type="VI" URL="../FPGA/Filters/Fir_reconfig.vi"/>
-			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="/C/Users/Public/Documents/LabVIEW-proj/PXIe/Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
 			<Item Name="FormatDMAelement_2.vi" Type="VI" URL="../FPGA/FormatDMAelement_2.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
 			<Item Name="FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx"/>
@@ -4172,18 +4146,9 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
-			<Item Name="niLvFpga_ConfigureFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_ConfigureFifo_Dynamic.vi"/>
-			<Item Name="niLvFpga_ReadFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_ReadFifo_Dynamic.vi"/>
-			<Item Name="niLvFpga_StartFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_StartFifo_Dynamic.vi"/>
-			<Item Name="niLvFpga_WriteFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_WriteFifo_Dynamic.vi"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niScope_32.dll" Type="Document" URL="niScope_32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="OuputFormater.vi" Type="VI" URL="../FPGA/OuputFormater.vi"/>
 			<Item Name="OuputMixer5782_1Ghz.vi" Type="VI" URL="../FPGA/OuputMixer5782_1Ghz.vi"/>
 			<Item Name="OuputMixer5782_1Ghz_interpolated.vi" Type="VI" URL="../FPGA/interpolate output/OuputMixer5782_1Ghz_interpolated.vi"/>
