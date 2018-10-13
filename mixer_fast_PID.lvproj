@@ -507,12 +507,12 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
             <IOModule>IOModuleID:0x109375BC</IOModule>
          </CompatibleIOModuleList>
          <DeclarationPaths>
-            <Absolute>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</Absolute>
+            <Absolute>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</Absolute>
             <MD5>5db1b15e0823e953912b5086da2ba29a</MD5>
-            <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToLabVIEW>
-            <RelativeToNiPubDocs>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiPubDocs>
+            <RelativeToLabVIEW>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>E:\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\4.1.1\K7\NI5782SingleSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -2375,8 +2375,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>ToCLIP</Direction>
       <HDLName>IdelayClk200</HDLName>
       <LinkToFPGAClock>200 MHz Clock</LinkToFPGAClock>
-      <MaxFreq>201000000,0000</MaxFreq>
-      <MinFreq>199000000,0000</MinFreq>
+      <MaxFreq>201000000.0000</MaxFreq>
+      <MinFreq>199000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Clock 40 MHz">
@@ -2384,8 +2384,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>ToCLIP</Direction>
       <HDLName>Clk40</HDLName>
       <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
-      <MaxFreq>41000000,00000</MaxFreq>
-      <MinFreq>39000000,00000</MinFreq>
+      <MaxFreq>41000000.00000</MaxFreq>
+      <MinFreq>39000000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock">
@@ -2393,8 +2393,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>FromCLIP</Direction>
       <HDLName>IoModDataClock</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>250000000,0000</MaxFreq>
-      <MinFreq>125000000,0000</MinFreq>
+      <MaxFreq>250000000.0000</MaxFreq>
+      <MinFreq>125000000.0000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
    <CLIPSignal name="Data Clock Div 2">
@@ -2402,8 +2402,8 @@ The slower, divided ADC clock is also available as &quot;Data Clock /2&quot; for
       <Direction>FromCLIP</Direction>
       <HDLName>IoModDataClockDiv2</HDLName>
       <LinkToFPGAClock></LinkToFPGAClock>
-      <MaxFreq>125000000,0000</MaxFreq>
-      <MinFreq>82500000,00000</MinFreq>
+      <MaxFreq>125000000.0000</MaxFreq>
+      <MinFreq>82500000.00000</MinFreq>
       <UseTopClock>false</UseTopClock>
    </CLIPSignal>
 </CLIPConnections></Property>
@@ -3823,39 +3823,16 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
-					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
 				<Item Name="instr.lib" Type="Folder">
 					<Item Name="niInstr Basic Elements v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/niInstr Basic Elements v1 FPGA.lvlib"/>
 				</Item>
-				<Item Name="Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter0/Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll"/>
-				<Item Name="Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter1/Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll"/>
-				<Item Name="Polyphase_filterbank_Filter0_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter0/Polyphase_filterbank_Filter0_155030D15C70440C8A7262E8A5168E06.dll"/>
-				<Item Name="Polyphase_filterbank_Filter1_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter1/Polyphase_filterbank_Filter1_155030D15C70440C8A7262E8A5168E06.dll"/>
-				<Item Name="Polyphase_filterbank_Filter2_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter2/Polyphase_filterbank_Filter2_155030D15C70440C8A7262E8A5168E06.dll"/>
-				<Item Name="Polyphase_filterbank_Filter3_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter3/Polyphase_filterbank_Filter3_155030D15C70440C8A7262E8A5168E06.dll"/>
-				<Item Name="CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll" Type="Document" URL="../Filters/CIC_5decimate_1cycle/CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll"/>
-				<Item Name="CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll" Type="Document" URL="../Filters/CIC_5decimate_4cycles/CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll"/>
-				<Item Name="CIC_5interpolate_5cycles_366FBD67F761461481C35F4FF98BD064.dll" Type="Document" URL="../Filters/CIC_5interpolate_5cycles/CIC_5interpolate_5cycles_366FBD67F761461481C35F4FF98BD064.dll"/>
-				<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="../Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
-				<Item Name="FIR_2decimate_125cycles_A5F5B967F2844EBF91F2B7F364D8D5CB.dll" Type="Document" URL="../Filters/FIR_2decimate_125cycles/FIR_2decimate_125cycles_A5F5B967F2844EBF91F2B7F364D8D5CB.dll"/>
-				<Item Name="FIR_decimate4_1cycle_7D7C14D382054E6CB3149F6E7DBB6B02.dll" Type="Document" URL="../Filters/FIR_decimate4_1cycle/FIR_decimate4_1cycle_7D7C14D382054E6CB3149F6E7DBB6B02.dll"/>
-				<Item Name="FIR_5decimate_25cycles_729C3C7D1F344495BDF41BE06D896C1D.dll" Type="Document" URL="../Filters/FIR_5decimate_25cycles/FIR_5decimate_25cycles_729C3C7D1F344495BDF41BE06D896C1D.dll"/>
-				<Item Name="FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll" Type="Document" URL="../Filters/FIR_5decimate_2cycle/FIR_5decimate_2cycle_3ED351F3D58C42438B4AA74C7C76AE3D.dll"/>
-				<Item Name="FIR_5Decimate_5Cycles_B5291933BF2B454885F1E12D573C96C6.dll" Type="Document" URL="../Filters/FIR_5decimate_5cycles/FIR_5Decimate_5Cycles_B5291933BF2B454885F1E12D573C96C6.dll"/>
-				<Item Name="FIR_5decimate_5cycles_finalstage_3ECE91C9AA884D8D839D477C12DEB743.dll" Type="Document" URL="../Filters/FIR_5decimate_5cycles_finalstage/FIR_5decimate_5cycles_finalstage_3ECE91C9AA884D8D839D477C12DEB743.dll"/>
-				<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
-				<Item Name="Polyphase_filterbank_Filter1_C3D6D94C538F4B69A671231CBB16BC71.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter1/Polyphase_filterbank_Filter1_C3D6D94C538F4B69A671231CBB16BC71.dll"/>
-				<Item Name="Polyphase_filterbank_Filter2_600B6E97182E42B4ACFE8408F669A62F.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter2/Polyphase_filterbank_Filter2_600B6E97182E42B4ACFE8408F669A62F.dll"/>
-				<Item Name="Polyphase_filterbank_Filter3_90A56C0CA55345308F9FA6BEDF7A9824.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter3/Polyphase_filterbank_Filter3_90A56C0CA55345308F9FA6BEDF7A9824.dll"/>
-				<Item Name="Polyphase_filterbank_Filter0_75806FB194E14CD7BE90987543D5A2F6.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter0/Polyphase_filterbank_Filter0_75806FB194E14CD7BE90987543D5A2F6.dll"/>
-				<Item Name="DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll" Type="Document" URL="../Filters/DDS_200Mhz/DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll"/>
-				<Item Name="PID_calc_AmplitudeFeedback_test_timing.vi" Type="VI" URL="../FPGA/AM-PID/PID_calc_AmplitudeFeedback_test_timing.vi"/>
-				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-				<Item Name="TestSignalIndex.vi" Type="VI" URL="../Host/Test/TestSignalIndex.vi"/>
-				<Item Name="FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_5decimate_1cycle/FIR_5decimate_1cycle_29EC362CCC274D4A8A449F630B901FF6.dll"/>
-				<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
+				<Item Name="CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll" Type="Document" URL="/../source/Filters/CIC_5decimate_1cycle/CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll"/>
+				<Item Name="CIC_5interpolate_5cycles_366FBD67F761461481C35F4FF98BD064.dll" Type="Document" URL="/../source/Filters/CIC_5interpolate_5cycles/CIC_5interpolate_5cycles_366FBD67F761461481C35F4FF98BD064.dll"/>
+				<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="/../source/Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
+				<Item Name="FIR_5decimate_5cycles_finalstage_3ECE91C9AA884D8D839D477C12DEB743.dll" Type="Document" URL="/../source/Filters/FIR_5decimate_5cycles_finalstage/FIR_5decimate_5cycles_finalstage_3ECE91C9AA884D8D839D477C12DEB743.dll"/>
+				<Item Name="FIR_Compiler_5FB9F0BADE11496F8820C1DDE59652D9.dll" Type="Document" URL="/../source/FPGA/Filters/FIR_5interpolate_10cycles/FIR Compiler/FIR_Compiler_5FB9F0BADE11496F8820C1DDE59652D9.dll"/>
+				<Item Name="DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll" Type="Document" URL="/../source/FPGA/DDS_1/DDS Compiler/DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
@@ -3882,102 +3859,6 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 				<Item Name="nirvififoEmulationCreateLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationCreateLock.vi"/>
 				<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
 				<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-				<Item Name="nifxpmath_DesktopException.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/SharedSubVIs/common/nifxpmath_DesktopException.vi"/>
-				<Item Name="nifxpmath_DesktopExceptionRpt.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/SharedSubVIs/common/nifxpmath_DesktopExceptionRpt.vi"/>
-				<Item Name="nifxpmath_Convert_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpConvert/subVIs/nifxpmath_Convert_SimConfig.ctl"/>
-				<Item Name="DllFxpConvertTemp_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpConvert/simVIs/DllFxpConvertTemp_sub.vi"/>
-				<Item Name="niFpgaMemoryEmulationWriteToVariant.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/niFpgaMemoryEmulationWriteToVariant.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_Operations.ctl"/>
-				<Item Name="nirvimemoryEmulationManagerCache.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_SetValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_SetValue.vi"/>
-				<Item Name="niFpgaSctlEmulationFifoFullMgr.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationFifoFullMgr.vi"/>
-				<Item Name="niFpgaSctlEmulationSharedResTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationSharedResTypes.ctl"/>
-				<Item Name="niFpgaSctlEmulationSharedResource.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationSharedResource.ctl"/>
-				<Item Name="niFpgaSctlEmulationSharedResMgrCmd.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationSharedResMgrCmd.ctl"/>
-				<Item Name="niFpgaSctlEmulationResourceMgr.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationResourceMgr.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_GetValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_GetValue.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_InsertValue.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_InsertValue.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCacheLock_Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCacheLock_Operations.ctl"/>
-				<Item Name="nirvimemoryEmulationManagerCacheLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCacheLock.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_ReleaseExclusive.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_ReleaseExclusive.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_Clear.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_Clear.vi"/>
-				<Item Name="niFpgaMemoryEmulationValidateCache.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/niFpgaMemoryEmulationValidateCache.vi"/>
-				<Item Name="nirvimemoryEmulationManagerCache_MakeExclusive.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulationManagerCache_MakeExclusive.vi"/>
-				<Item Name="niFpgaMemoryEmulationCacheClearOnFirstRun.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/niFpgaMemoryEmulationCacheClearOnFirstRun.vi"/>
-				<Item Name="niFpgaContainerEmuAddTargetNameIfNeeded.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerEmuAddTargetNameIfNeeded.vi"/>
-				<Item Name="niFpgaContainerGetUniqueNameForEmu.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerGetUniqueNameForEmu.vi"/>
-				<Item Name="nirvimemoryEmulation.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryEmulation.vi"/>
-				<Item Name="nirvimemoryFastEmulationFpgaImpl.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryFastEmulationFpgaImpl.vi"/>
-				<Item Name="nirvimemoryFastEmulationFpgaImpl_5FBAB50466BC4C939F684F8805638BFC_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/nirvimemoryFastEmulationFpgaImpl_5FBAB50466BC4C939F684F8805638BFC.lvgen/nirvimemoryFastEmulationFpgaImpl_5FBAB50466BC4C939F684F8805638BFC_000.vi"/>
-				<Item Name="nirvimemoryFastEmulation.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Emulation/nirvimemoryFastEmulation.vi"/>
-				<Item Name="nirvimemoryFastEmulationFpgaImpl_5FBAB50466BC4C939F684F8805638BFC_003.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/nirvimemoryFastEmulationFpgaImpl_5FBAB50466BC4C939F684F8805638BFC.lvgen/nirvimemoryFastEmulationFpgaImpl_5FBAB50466BC4C939F684F8805638BFC_003.vi"/>
-				<Item Name="niFpgaIPINode_L10N.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Xnode/niFpgaIPINode_L10N.vi"/>
-				<Item Name="niFpgaIPINodeStringIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Typedef/niFpgaIPINodeStringIndex.ctl"/>
-				<Item Name="niFpgaIPINodeStrings.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Utilities/niFpgaIPINodeStrings.vi"/>
-				<Item Name="niFpgaIPINodeDllError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Typedef/niFpgaIPINodeDllError.ctl"/>
-				<Item Name="niFpgaIPINodeGetDllErrorString.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Dialog/niFpgaIPINodeGetDllErrorString.vi"/>
-				<Item Name="niFpgaIPINodeThrowRuntimeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Utilities/niFpgaIPINodeThrowRuntimeError.vi"/>
-				<Item Name="niFpgaIPINodeGetSimDllMd5.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Utilities/niFpgaIPINodeGetSimDllMd5.vi"/>
-				<Item Name="niFpgaIPINodeGetIsimLogFileAttr.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Utilities/niFpgaIPINodeGetIsimLogFileAttr.vi"/>
-				<Item Name="niFpgaCompilationToolVersion_bits.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/CompilationInfo/niFpgaCompilationToolVersion_bits.ctl"/>
-				<Item Name="niFpgaCompilationToolVersion_compiler.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/CompilationInfo/niFpgaCompilationToolVersion_compiler.ctl"/>
-				<Item Name="niFpgaCompilationToolVersion_data.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/CompilationInfo/niFpgaCompilationToolVersion_data.ctl"/>
-				<Item Name="niFpgaSupportedCompilationToolVersions.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/CompilationInfo/niFpgaSupportedCompilationToolVersions.vi"/>
-				<Item Name="niFpgaIPINodeGetIsePath.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Utilities/niFpgaIPINodeGetIsePath.vi"/>
-				<Item Name="niFpgaIPINodeSimCore.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/IPIntegrationNode/IPINode_Utilities/niFpgaIPINodeSimCore.vi"/>
-				<Item Name="nifxpmath_Atan2_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpAtan2/subVIs/nifxpmath_Atan2_SimConfig.ctl"/>
-				<Item Name="DllFxpAtan2Temp_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpAtan2/simVIs/DllFxpAtan2Temp_sub.vi"/>
-				<Item Name="nifxpmath_Div_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpDiv/subVIs/nifxpmath_Div_SimConfig.ctl"/>
-				<Item Name="DllFxpDivTemp_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpDiv/simVIs/DllFxpDivTemp_sub.vi"/>
-				<Item Name="nifxpmath_Sqrt_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpSqrt/subVIs/nifxpmath_Sqrt_SimConfig.ctl"/>
-				<Item Name="DllSqrtTemp_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpSqrt/simVIs/DllSqrtTemp_sub.vi"/>
-				<Item Name="nifxpmath_SinAndCos_SimConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpSinAndCos/subVIs/nifxpmath_SinAndCos_SimConfig.ctl"/>
-				<Item Name="DllFxpSinAndCosTemp_sub.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FXPMathLib/FxpSinAndCos/simVIs/DllFxpSinAndCosTemp_sub.vi"/>
-				<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
-				<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
-				<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
-				<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
-				<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Register/Emulation/niFpgaRegisterEmulationFpgaImpl.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_032.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_032.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_031.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_031.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_028.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_028.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_021.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_021.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_020.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_020.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_009.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_009.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_007.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_007.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_008.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_008.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_010.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_010.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_011.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_011.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_012.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_012.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_013.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_013.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_014.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_014.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_015.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_015.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_016.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_016.vi"/>
-				<Item Name="niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_003.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D.lvgen/niFpgaRegisterEmulationFpgaImpl_DCF4BC0110594B98B44A971D60CEEC4D_003.vi"/>
-				<Item Name="nirvififoEmulationObtainLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationObtainLock.vi"/>
-				<Item Name="nirvififoEmulationWriteFpgaImpl.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationWriteFpgaImpl.vi"/>
-				<Item Name="nirviFPGAContextMergeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviFPGAContextMergeError.vi"/>
-				<Item Name="nirviRandomDataReleaseLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataReleaseLock.vi"/>
-				<Item Name="nirviRandomDataCheckExitLoopConditions.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataCheckExitLoopConditions.vi"/>
-				<Item Name="nirviQueueStoreOperation.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviQueueStoreOperation.ctl"/>
-				<Item Name="nirviRandomDataQueueStore.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataQueueStore.vi"/>
-				<Item Name="nirviRandomDataAcquireLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataAcquireLock.vi"/>
-				<Item Name="niFpgaContainerMethod.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerMethod.ctl"/>
-				<Item Name="niFpgaFifoControlLogicControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/niFpgaFifoControlLogicControl.ctl"/>
-				<Item Name="niFpgaMemoryInterfaceConfiguration.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Memory/Memory_Types/niFpgaMemoryInterfaceConfiguration.ctl"/>
-				<Item Name="niFpgaContainerInitializationParameters.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerInitializationParameters.ctl"/>
-				<Item Name="niFpgaTransferTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaTransferTypeControl.ctl"/>
-				<Item Name="niFpgaContainerArbitrationOptionsControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerArbitrationOptionsControl.ctl"/>
-				<Item Name="niFpgaContainerImplementationControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerImplementationControl.ctl"/>
-				<Item Name="niFpgaDataTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaDataTypeControl.ctl"/>
-				<Item Name="niFpgaContainerState.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DataTransferAndStorage/Container/Common/niFpgaContainerState.ctl"/>
-				<Item Name="nirviRandomDataFPGAFIFO.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataFPGAFIFO.vi"/>
-				<Item Name="niFpgaRandomDataHandleErrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/niFpgaRandomDataHandleErrors.vi"/>
-				<Item Name="nirviRandomDataMultiElementFPGAFIFO.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataMultiElementFPGAFIFO.vi"/>
-				<Item Name="nirvififoEmulationReadFpgaImpl.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoEmulationReadFpgaImpl.vi"/>
-				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-				<Item Name="nirviRandomDataMultiElementFPGAFIFO_F2B80EDE0D7944A08478D8D26097D4DB_005.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/nirviRandomDataMultiElementFPGAFIFO_F2B80EDE0D7944A08478D8D26097D4DB.lvgen/nirviRandomDataMultiElementFPGAFIFO_F2B80EDE0D7944A08478D8D26097D4DB_005.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGAmain_5782_Fast_PID" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4014,61 +3895,6 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 		</Item>
 		<Item Name="Scope_Fast_PID.vi" Type="VI" URL="../Scope_Fast_PID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="niInstr Basic Elements v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/niInstr Basic Elements v1 FPGA.lvlib"/>
-				<Item Name="niScope Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Abort.vi"/>
-				<Item Name="niScope Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Close.vi"/>
-				<Item Name="niScope Configure Chan Characteristics.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Vertical/niScope Configure Chan Characteristics.vi"/>
-				<Item Name="niScope Configure Horizontal Timing.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Horizontal/niScope Configure Horizontal Timing.vi"/>
-				<Item Name="niScope Configure Trigger (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger (poly).vi"/>
-				<Item Name="niScope Configure Trigger Digital.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Digital.vi"/>
-				<Item Name="niScope Configure Trigger Edge.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Edge.vi"/>
-				<Item Name="niScope Configure Trigger Hysteresis.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Hysteresis.vi"/>
-				<Item Name="niScope Configure Trigger Immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Immediate.vi"/>
-				<Item Name="niScope Configure Trigger Software.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Software.vi"/>
-				<Item Name="niScope Configure Trigger Window.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Window.vi"/>
-				<Item Name="niScope Configure Vertical.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Vertical/niScope Configure Vertical.vi"/>
-				<Item Name="niScope Configure Video Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Video Trigger.vi"/>
-				<Item Name="niScope Fetch (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch (poly).vi"/>
-				<Item Name="niScope Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 8.vi"/>
-				<Item Name="niScope Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 16.vi"/>
-				<Item Name="niScope Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 32.vi"/>
-				<Item Name="niScope Fetch Cluster Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Cluster Complex Double.vi"/>
-				<Item Name="niScope Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Cluster.vi"/>
-				<Item Name="niScope Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex Double.vi"/>
-				<Item Name="niScope Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex WDT.vi"/>
-				<Item Name="niScope Fetch Error Chain.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Error Chain.vi"/>
-				<Item Name="niScope Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch WDT.vi"/>
-				<Item Name="niScope Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch.vi"/>
-				<Item Name="niScope Get Normalization Coefficients.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/niScope Get Normalization Coefficients.vi"/>
-				<Item Name="niScope Get Scaling Coefficients.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/niScope Get Scaling Coefficients.vi"/>
-				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
-				<Item Name="niScope Get Stream Endpoint Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Stream Endpoint Handle.vi"/>
-				<Item Name="niScope Get Wfm Coefficients (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/niScope Get Wfm Coefficients (poly).vi"/>
-				<Item Name="niScope Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Initialize.vi"/>
-				<Item Name="niScope Initiate Acquisition.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Initiate Acquisition.vi"/>
-				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
-				<Item Name="niScope Multi Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 8.vi"/>
-				<Item Name="niScope Multi Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 16.vi"/>
-				<Item Name="niScope Multi Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 32.vi"/>
-				<Item Name="niScope Multi Fetch Cluster Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster Complex Double.vi"/>
-				<Item Name="niScope Multi Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster.vi"/>
-				<Item Name="niScope Multi Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex Double.vi"/>
-				<Item Name="niScope Multi Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex WDT.vi"/>
-				<Item Name="niScope Multi Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch WDT.vi"/>
-				<Item Name="niScope Multi Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch.vi"/>
-				<Item Name="niScope polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope polarity.ctl"/>
-				<Item Name="niScope Send Software Trigger Edge.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Send Software Trigger Edge.vi"/>
-				<Item Name="niScope signal format.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope signal format.ctl"/>
-				<Item Name="niScope timestamp type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope timestamp type.ctl"/>
-				<Item Name="niScope trigger coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger coupling.ctl"/>
-				<Item Name="niScope trigger slope.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger slope.ctl"/>
-				<Item Name="niScope trigger source digital.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source digital.ctl"/>
-				<Item Name="niScope trigger source.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source.ctl"/>
-				<Item Name="niScope trigger window mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger window mode.ctl"/>
-				<Item Name="niScope tv event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope tv event.ctl"/>
-				<Item Name="niScope vertical coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope vertical coupling.ctl"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
@@ -4084,229 +3910,34 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
-				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="ex_GenAddAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/ex_GenAddAttribs.vi"/>
-				<Item Name="ex_SetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetAllExpressAttribs.vi"/>
-				<Item Name="ex_SetExpAttribsAndT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetExpAttribsAndT0.vi"/>
-				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
-				<Item Name="ex_WaveformAttribsPlus.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribsPlus.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
-				<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
-				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
-				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
-				<Item Name="niP2P Create Peer to Peer Stream.vi" Type="VI" URL="/&lt;vilib&gt;/niP2P/niP2P.llb/niP2P Create Peer to Peer Stream.vi"/>
-				<Item Name="niP2P Destroy Peer to Peer Stream.vi" Type="VI" URL="/&lt;vilib&gt;/niP2P/niP2P.llb/niP2P Destroy Peer to Peer Stream.vi"/>
-				<Item Name="niP2P Disable Peer to Peer Stream.vi" Type="VI" URL="/&lt;vilib&gt;/niP2P/niP2P.llb/niP2P Disable Peer to Peer Stream.vi"/>
-				<Item Name="niP2P Library Name.vi" Type="VI" URL="/&lt;vilib&gt;/niP2P/niP2P.llb/niP2P Library Name.vi"/>
-				<Item Name="niP2P Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/niP2P/niP2P.llb/niP2P Merge Errors.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
-				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
-				<Item Name="subInternalTiming.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subInternalTiming.vi"/>
-				<Item Name="subShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subShouldUseDefSigName.vi"/>
-				<Item Name="subSigGeneratorBlock.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subSigGeneratorBlock.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
-				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="Adress counter.vi" Type="VI" URL="../FPGA/Feed forward/Adress counter.vi"/>
-			<Item Name="AM_PID_tester_3_LzNp9O2tiLo.lvbitx" Type="Document" URL="../FPGA Bitfiles/AM_PID_tester_3_LzNp9O2tiLo.lvbitx"/>
-			<Item Name="Any.vi" Type="VI" URL="../FPGA/subVIs/Any.vi"/>
-			<Item Name="BeamFeedForward.vi" Type="VI" URL="../FPGA/Feed forward/BeamFeedForward.vi"/>
-			<Item Name="BuildFilterInput.vi" Type="VI" URL="../FPGA/subVIs/BuildFilterInput.vi"/>
-			<Item Name="calc_deltaF.vi" Type="VI" URL="../FPGA/calc_deltaF.vi"/>
-			<Item Name="Calc_phase_error.vi" Type="VI" URL="../FPGA/PID/Calc_phase_error.vi"/>
-			<Item Name="CalcMagnitude.vi" Type="VI" URL="../FPGA/AM-PID/CalcMagnitude.vi"/>
-			<Item Name="calcualte_Vr_Vi.vi" Type="VI" URL="../FPGA/cavity model/calcualte_Vr_Vi.vi"/>
-			<Item Name="CalculateAM_factor.vi" Type="VI" URL="../FPGA/Input_5782/CalculateAM_factor.vi"/>
-			<Item Name="CalculateAmplitudeModulation.vi" Type="VI" URL="../FPGA/Input_5782/CalculateAmplitudeModulation.vi"/>
-			<Item Name="CalculateAmplitudeModulationWithBypass.vi" Type="VI" URL="../FPGA/Input_5782/CalculateAmplitudeModulationWithBypass.vi"/>
-			<Item Name="CalculateDelay.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay.vi"/>
-			<Item Name="CalculateDelay2.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay2.vi"/>
-			<Item Name="CalculateDelay_2chan.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay_2chan.vi"/>
-			<Item Name="CalculateDelay_From_Fi_korr.vi" Type="VI" URL="../FPGA/Input_5782/CalculateDelay_From_Fi_korr.vi"/>
-			<Item Name="cavity_model.vi" Type="VI" URL="../FPGA/cavity model/cavity_model.vi"/>
-			<Item Name="CIC_5decimate_1cycle.vi" Type="VI" URL="../FPGA/Filters/CIC_5decimate_1cycle.vi"/>
-			<Item Name="CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll" Type="Document" URL="../Filters/CIC_5decimate_1cycle/CIC_5Decimate_1Cycle_F7ADFA01765C4A9D91FA8692B60EC2B3.dll"/>
-			<Item Name="CIC_5decimate_4cycles.vi" Type="VI" URL="../FPGA/Filters/CIC_5decimate_4cycles.vi"/>
-			<Item Name="CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll" Type="Document" URL="../Filters/CIC_5decimate_4cycles/CIC_5decimate_4cycles_65329D8778C1463593165B66C10BC298.dll"/>
-			<Item Name="CIC_5interpolate_5cycle.vi" Type="VI" URL="../FPGA/Filters/CIC_5interpolate_5cycle.vi"/>
-			<Item Name="CIC_5interpolate_5cycles_366FBD67F761461481C35F4FF98BD064.dll" Type="Document" URL="../Filters/CIC_5interpolate_5cycles/CIC_5interpolate_5cycles_366FBD67F761461481C35F4FF98BD064.dll"/>
-			<Item Name="CIC_downsample_reconfig.vi" Type="VI" URL="../FPGA/Filters/CIC_downsample_reconfig.vi"/>
-			<Item Name="CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll" Type="Document" URL="../Filters/CIC_reconfig/CIC_reconfig_98CB1CAE2BB740CC8D7F2D4651806219.dll"/>
-			<Item Name="ConvertI16FXP.vi" Type="VI" URL="../FPGA/subVIs/ConvertI16FXP.vi"/>
-			<Item Name="Count delay.vi" Type="VI" URL="../FPGA/subVIs/Count delay.vi"/>
-			<Item Name="Count samples.vi" Type="VI" URL="../FPGA/subVIs/Count samples.vi"/>
-			<Item Name="CountTimeouts.vi" Type="VI" URL="../FPGA/subVIs/CountTimeouts.vi"/>
 			<Item Name="DataMode.ctl" Type="VI" URL="../FPGA/DataMode.ctl"/>
-			<Item Name="DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll" Type="Document" URL="../Filters/DDS_200Mhz/DDS_Compiler_A97A781D53BC47E899D1F734C4E0E414.dll"/>
-			<Item Name="DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll" Type="Document" URL="../FPGA/DDS_1/DDS Compiler/DDS_Compiler_AEE5C67338364F1EA41DEF5F1D6503D7.dll"/>
-			<Item Name="Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter0/Decimate2Filter0_8B14D252B9D942A4BA762814218C3D7F.dll"/>
-			<Item Name="Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll" Type="Document" URL="../Filters/Polyphase filterbank decimate 2/Filter1/Decimate2Filter1_75523996F56C4579BDBCEAC55126D77F.dll"/>
-			<Item Name="delaytest2_0waIOfTFc3I.lvbitx" Type="Document" URL="../FPGA Bitfiles/delaytest2_0waIOfTFc3I.lvbitx"/>
-			<Item Name="DownsampleStage2.vi" Type="VI" URL="../FPGA/DownsampleStage2.vi"/>
-			<Item Name="DownsampleStage2_5160.vi" Type="VI" URL="../FPGA/highspeed input/DownsampleStage2_5160.vi"/>
-			<Item Name="DownsampleStage2_5160_singlechannel.vi" Type="VI" URL="../FPGA/highspeed input/DownsampleStage2_5160_singlechannel.vi"/>
-			<Item Name="DownsampleStage2_5782.vi" Type="VI" URL="../FPGA/Input_5782/DownsampleStage2_5782.vi"/>
-			<Item Name="Filter_update.vi" Type="VI" URL="../FPGA/subVIs/Filter_update.vi"/>
-			<Item Name="FIR_2decimate_5cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_2decimate_5cycles.vi"/>
-			<Item Name="FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll" Type="Document" URL="../Filters/FIR_2decimate_5cycles/FIR_2decimate_5cycles_C34E9730D4464470BDA47F133264132D.dll"/>
-			<Item Name="FIR_2decimate_125cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_2decimate_125cycles.vi"/>
-			<Item Name="FIR_2decimate_125cycles_A5F5B967F2844EBF91F2B7F364D8D5CB.dll" Type="Document" URL="../Filters/FIR_2decimate_125cycles/FIR_2decimate_125cycles_A5F5B967F2844EBF91F2B7F364D8D5CB.dll"/>
-			<Item Name="FIR_2decimate_Filter0.vi" Type="VI" URL="../FPGA/Filters/Filterbank/FIR_2decimate_Filter0.vi"/>
-			<Item Name="FIR_2decimate_Filter1.vi" Type="VI" URL="../FPGA/Filters/Filterbank/FIR_2decimate_Filter1.vi"/>
-			<Item Name="FIR_2Decimate_FilterBank.vi" Type="VI" URL="../FPGA/Filters/FIR_2Decimate_FilterBank.vi"/>
-			<Item Name="FIR_4decimate_Filter0.vi" Type="VI" URL="../FPGA/Filters/Filterbank/FIR_4decimate_Filter0.vi"/>
-			<Item Name="FIR_4decimate_Filter1.vi" Type="VI" URL="../FPGA/Filters/Filterbank/FIR_4decimate_Filter1.vi"/>
-			<Item Name="FIR_4decimate_Filter2.vi" Type="VI" URL="../FPGA/Filters/Filterbank/FIR_4decimate_Filter2.vi"/>
-			<Item Name="FIR_4decimate_Filter3.vi" Type="VI" URL="../FPGA/Filters/Filterbank/FIR_4decimate_Filter3.vi"/>
-			<Item Name="FIR_4Decimate_FilterBank.vi" Type="VI" URL="../FPGA/Filters/FIR_4Decimate_FilterBank.vi"/>
-			<Item Name="FIR_5decimate_5cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5decimate_5cycles.vi"/>
-			<Item Name="FIR_5Decimate_5Cycles_B5291933BF2B454885F1E12D573C96C6.dll" Type="Document" URL="../Filters/FIR_5decimate_5cycles/FIR_5Decimate_5Cycles_B5291933BF2B454885F1E12D573C96C6.dll"/>
-			<Item Name="FIR_5decimate_5cycles_finalstage.vi" Type="VI" URL="../FPGA/Filters/FIR_5decimate_5cycles_finalstage.vi"/>
-			<Item Name="FIR_5decimate_5cycles_finalstage_3ECE91C9AA884D8D839D477C12DEB743.dll" Type="Document" URL="../Filters/FIR_5decimate_5cycles_finalstage/FIR_5decimate_5cycles_finalstage_3ECE91C9AA884D8D839D477C12DEB743.dll"/>
-			<Item Name="FIR_5decimate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5decimate_25cycles.vi"/>
-			<Item Name="FIR_5decimate_25cycles_729C3C7D1F344495BDF41BE06D896C1D.dll" Type="Document" URL="../Filters/FIR_5decimate_25cycles/FIR_5decimate_25cycles_729C3C7D1F344495BDF41BE06D896C1D.dll"/>
-			<Item Name="FIR_5interpolate_25cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_25cycles.vi"/>
-			<Item Name="FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll" Type="Document" URL="../Filters/FIR_5interpolate_25cycles/FIR_Compiler_C93738AD4E20430B80DFA22E179CA7B0.dll"/>
-			<Item Name="Fir_reconfig.vi" Type="VI" URL="../FPGA/Filters/Fir_reconfig.vi"/>
-			<Item Name="FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll" Type="Document" URL="../../../../Workspace/Filters/FIR_reconfig/FIR_reconfig_C7DB4901E5B34DF5AA9089C2303BD932.dll"/>
-			<Item Name="FormatDMAelement_2.vi" Type="VI" URL="../FPGA/FormatDMAelement_2.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
-			<Item Name="FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx"/>
-			<Item Name="FPGAoutputfixed125_MHz_nv4b6Zp6nDA.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfixed125_MHz_nv4b6Zp6nDA.lvbitx"/>
-			<Item Name="FPGAoutputfixed375_MHz_KcNSHvogqos.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfixed375_MHz_KcNSHvogqos.lvbitx"/>
-			<Item Name="FPGAoutputfixed_8sample_2AznL8vBIoE.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfixed_8sample_2AznL8vBIoE.lvbitx"/>
-			<Item Name="FPGAoutputfromDDS_d89QWMi772M.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfromDDS_d89QWMi772M.lvbitx"/>
-			<Item Name="FPGAoutputfromDDS_to_host_T1B3HnZlK8A.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAoutputfromDDS_to_host_T1B3HnZlK8A.lvbitx"/>
-			<Item Name="HandleFeedForward.vi" Type="VI" URL="../FPGA/HandleFeedForward.vi"/>
-			<Item Name="HighSpeedAverage8.vi" Type="VI" URL="../FPGA/interpolate output/HighSpeedAverage8.vi"/>
-			<Item Name="HighSpeedAveragevi.vi" Type="VI" URL="../FPGA/interpolate output/HighSpeedAveragevi.vi"/>
-			<Item Name="HT_add.vi" Type="VI" URL="../FPGA/Input_5782/HT_add.vi"/>
-			<Item Name="HT_add_16_2.vi" Type="VI" URL="../FPGA/Input_5782/HT_add_16_2.vi"/>
-			<Item Name="HT_multiply.vi" Type="VI" URL="../FPGA/Input_5782/HT_multiply.vi"/>
-			<Item Name="HT_multiply_16_2.vi" Type="VI" URL="../FPGA/Input_5782/HT_multiply_16_2.vi"/>
-			<Item Name="HT_subtract.vi" Type="VI" URL="../FPGA/Input_5782/HT_subtract.vi"/>
-			<Item Name="I16 array size 2.ctl" Type="VI" URL="../FPGA/subVIs/I16 array size 2.ctl"/>
-			<Item Name="I16 array size 4.ctl" Type="VI" URL="../FPGA/subVIs/I16 array size 4.ctl"/>
-			<Item Name="Inpterpolate8.vi" Type="VI" URL="../FPGA/interpolate output/Inpterpolate8.vi"/>
-			<Item Name="InterpolateStage1.vi" Type="VI" URL="../FPGA/interpolate output/InterpolateStage1.vi"/>
-			<Item Name="IQramp.vi" Type="VI" URL="../FPGA/IQramp.vi"/>
+			<Item Name="FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx" Type="Document" URL="/../source/FPGA Bitfiles/FPGAmain_5782_Fast_PID_eL07vsNfjYY.lvbitx"/>
 			<Item Name="LogDebug.vi" Type="VI" URL="../Host/Utilities/Logger/LogDebug.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MixAndDownsample.vi" Type="VI" URL="../FPGA/MixAndDownsample.vi"/>
-			<Item Name="MixAndDownsample_5160.vi" Type="VI" URL="../FPGA/highspeed input/MixAndDownsample_5160.vi"/>
-			<Item Name="MixAndDownsample_5772.vi" Type="VI" URL="../FPGA/MixAndDownsample_5772.vi"/>
-			<Item Name="MixAndDownsample_5782.vi" Type="VI" URL="../FPGA/Input_5782/MixAndDownsample_5782.vi"/>
-			<Item Name="mixer_FPGATarget2_5782inputtest_r0B46DafvIs.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget2_5782inputtest_r0B46DafvIs.lvbitx"/>
-			<Item Name="mixer_FPGATarget2_testoutfrqfpga2_Hp3WpIpy1LI.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget2_testoutfrqfpga2_Hp3WpIpy1LI.lvbitx"/>
-			<Item Name="mixer_FPGATarget3_arraysizetest_DYaVQgTtPqo.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget3_arraysizetest_DYaVQgTtPqo.lvbitx"/>
-			<Item Name="mixer_FPGATarget_FPGA5160minimal_MG3sHgywKFM.lvbitx" Type="Document" URL="../FPGA Bitfiles/mixer_FPGATarget_FPGA5160minimal_MG3sHgywKFM.lvbitx"/>
-			<Item Name="Multiply_4channel.vi" Type="VI" URL="../FPGA/Multiply_4channel.vi"/>
-			<Item Name="Multiply_HT.vi" Type="VI" URL="../FPGA/subVIs/Multiply_HT.vi"/>
-			<Item Name="Multiply_IQ_add.vi" Type="VI" URL="../FPGA/subVIs/Multiply_IQ_add.vi"/>
-			<Item Name="Multiply_IQ_subtract.vi" Type="VI" URL="../FPGA/subVIs/Multiply_IQ_subtract.vi"/>
-			<Item Name="Negate_Qin.vi" Type="VI" URL="../FPGA/Negate_Qin.vi"/>
-			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
-			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niFpgaSimulationCallBeginRW.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/Simulation/niFpgaSimulationCallBeginRW.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
-			<Item Name="niLvFpga_Open_PXIe-7975R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXIe-7975R/niLvFpga_Open_PXIe-7975R.vi"/>
-			<Item Name="niLvFpga_WriteFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_WriteFifo_Dynamic.vi"/>
+			<Item Name="niLvFpga_ReadFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_ReadFifo_Dynamic.vi"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
-			<Item Name="niScope_32.dll" Type="Document" URL="niScope_32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="OuputFormater.vi" Type="VI" URL="../FPGA/OuputFormater.vi"/>
-			<Item Name="OuputMixer5782_1Ghz.vi" Type="VI" URL="../FPGA/OuputMixer5782_1Ghz.vi"/>
-			<Item Name="OuputMixer5782_1Ghz_interpolated.vi" Type="VI" URL="../FPGA/interpolate output/OuputMixer5782_1Ghz_interpolated.vi"/>
-			<Item Name="OuputMixer5782_500Mhz_2channel.vi" Type="VI" URL="../FPGA/OuputMixer5782_500Mhz_2channel.vi"/>
-			<Item Name="OutputMixerMultiply.vi" Type="VI" URL="../FPGA/OutputMixerMultiply.vi"/>
-			<Item Name="PhasePID.vi" Type="VI" URL="../FPGA/PID/PhasePID.vi"/>
-			<Item Name="PID_calc_AmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/PID_calc_AmplitudeFeedback.vi"/>
-			<Item Name="PID_calc_Fi_corr.vi" Type="VI" URL="../FPGA/PID/PID_calc_Fi_corr.vi"/>
-			<Item Name="Polyphase_filterbank_Filter0_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter0/Polyphase_filterbank_Filter0_155030D15C70440C8A7262E8A5168E06.dll"/>
-			<Item Name="Polyphase_filterbank_Filter1_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter1/Polyphase_filterbank_Filter1_155030D15C70440C8A7262E8A5168E06.dll"/>
-			<Item Name="Polyphase_filterbank_Filter2_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter2/Polyphase_filterbank_Filter2_155030D15C70440C8A7262E8A5168E06.dll"/>
-			<Item Name="Polyphase_filterbank_Filter3_155030D15C70440C8A7262E8A5168E06.dll" Type="Document" URL="../Filters/Polyphase filterbank/Filter3/Polyphase_filterbank_Filter3_155030D15C70440C8A7262E8A5168E06.dll"/>
-			<Item Name="ScaleCIC_5.vi" Type="VI" URL="../FPGA/Filters/ScaleCIC_5.vi"/>
-			<Item Name="SetpointFeedForward.vi" Type="VI" URL="../FPGA/Feed forward/SetpointFeedForward.vi"/>
-			<Item Name="SignalGenerator.vi" Type="VI" URL="../FPGA/SignalGenerator.vi"/>
-			<Item Name="SignalGenerator_2.vi" Type="VI" URL="../FPGA/SignalGenerator_2.vi"/>
-			<Item Name="SignalGenerator_4.vi" Type="VI" URL="../FPGA/SignalGenerator_4.vi"/>
-			<Item Name="SignalGenerator_8.vi" Type="VI" URL="../FPGA/SignalGenerator_8.vi"/>
-			<Item Name="SignalGenerator_8_125Mhz.vi" Type="VI" URL="../FPGA/SignalGenerator_8_125Mhz.vi"/>
-			<Item Name="SignalGenerator_125Mhz.vi" Type="VI" URL="../FPGA/SignalGenerator_125Mhz.vi"/>
-			<Item Name="SimpleDownsample5.vi" Type="VI" URL="../FPGA/Filters/SimpleDownsample5.vi"/>
-			<Item Name="SimulatedSignal.vi" Type="VI" URL="../FPGA/SimulatedSignal.vi"/>
-			<Item Name="SimulatedSignal2.vi" Type="VI" URL="../FPGA/SimulatedSignal2.vi"/>
-			<Item Name="SimulatedSignal4.vi" Type="VI" URL="../FPGA/SimulatedSignal4.vi"/>
-			<Item Name="SplitFilterOutput.vi" Type="VI" URL="../FPGA/subVIs/SplitFilterOutput.vi"/>
 			<Item Name="TCPsim Open (port).vi" Type="VI" URL="../Host/Communication/Interface/TCP/Simulated/TCPsim Open (port).vi"/>
-			<Item Name="Test_feed_forward1_OTIf-jJYddg.lvbitx" Type="Document" URL="../FPGA Bitfiles/Test_feed_forward1_OTIf-jJYddg.lvbitx"/>
-			<Item Name="Update_c.vi" Type="VI" URL="../FPGA/PID/Update_c.vi"/>
-			<Item Name="Update_c_ForAmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/Update_c_ForAmplitudeFeedback.vi"/>
-			<Item Name="Update_e_t.vi" Type="VI" URL="../FPGA/PID/Update_e_t.vi"/>
-			<Item Name="Update_e_t_ForAmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/Update_e_t_ForAmplitudeFeedback.vi"/>
-			<Item Name="Update_FI.vi" Type="VI" URL="../FPGA/PID/Update_FI.vi"/>
-			<Item Name="WrapValue.vi" Type="VI" URL="../FPGA/PID/WrapValue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
