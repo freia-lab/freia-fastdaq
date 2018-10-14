@@ -1,0 +1,7 @@
+Running: xsim.dir/FIR_5interpolate_10cycles_77862F05F6E04E8AAE358EC76C5EAFF3/xsimk_77862F05F6E04E8AAE358EC76C5EAFF3.dll -log xsiSetupLog
+Design successfully loaded
+Design Loading Memory Usage: 10284 KB (Peak: 10284 KB)
+Design Loading CPU Usage: 186 ms
+Simulation completed
+Simulation Memory Usage: 11252 KB (Peak: 11252 KB)
+Simulation CPU Usage: 18640 ms
