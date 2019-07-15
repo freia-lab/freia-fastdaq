@@ -3946,7 +3946,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 		<Item Name="FPGA Target 2" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="CCSymbols" Type="Str">FLEXRIO_IO_MODEL,NI_5761;</Property>
-			<Property Name="configString.guid" Type="Str">{19E49307-2008-4D15-AA86-0A21FE5905E5}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 3 Data;0;ReadMethodType=I16{1B91D052-9FE7-4FE5-87AA-928178C94640}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool{1DFACB44-EFFE-4599-A6DC-DFDC9CE58815}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8{1FBAC8AA-0110-476B-8FFB-C9017CF5F055}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8{26D0B281-9556-4FB5-B845-5FA226696110}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=bool{27675347-3547-4DA2-9C37-2F1F7018FD3A}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 1 Data;0;ReadMethodType=I16{2E335D05-AE75-4BE7-AF7E-ED24A81D2090}ResourceName=IO ModuleA_AData Clock Div 2;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000,000000;MaxFreq=87500000,000000;VariableFreq=0;NomFreq=87500000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{38953B0B-F385-4B2F-8B9D-CE24651F4E94}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Configuration Error;0;ReadMethodType=bool{4760964D-B25A-4C16-81C7-C865EEED3822}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8{55932330-01A8-49E9-A375-C5F3B336C055}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=bool{5F38CAE8-8E03-424B-8044-7D82C737EBB1}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=bool{74FA27CA-35AB-4A93-B080-92B22EB79A60}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 2 Data;0;ReadMethodType=I16{77D5B5F9-8CA3-48ED-955D-5F90C72C7579}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=bool{80AFE7EE-7106-4087-BF09-56E0C72D86CD}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{812960A4-4897-462E-BEDE-CFDFE64575A8}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16{9494CA45-F67C-47A8-9A5A-655840AC1ADD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=bool{95C16AE4-CB19-4BF9-A7F1-7CF968DD6EFE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8{9938B6CE-B086-4A05-8900-DBE7F3DCAE18}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8{A56E5BFE-5A9F-4E21-B994-66744E5727AC}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=bool{AA2E51B8-B186-4215-8509-826959670C46}ResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ASampleClk;ClockSignalName=IO_ModuleA_ASampleClk;MinFreq=250000000,000000;MaxFreq=175000000,000000;VariableFreq=0;NomFreq=175000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{AC952DA6-4FCB-49DF-9260-233C6F8CB764}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=bool{B6384A0B-783A-4E96-B237-573624F0D9D6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8{B8BEAE46-C894-4431-8DB6-02ED616F8234}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 0 Data;0;ReadMethodType=I16{B9754C35-50CC-4EB6-AB59-D1C526AD285F}5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10&lt;Array&gt;
+			<Property Name="configString.guid" Type="Str">{192BD99A-9162-4148-B6C3-E7FD40D07917}"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=5761 triggered;WriteArb=1"{19E49307-2008-4D15-AA86-0A21FE5905E5}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 3 Data;0;ReadMethodType=I16{1B91D052-9FE7-4FE5-87AA-928178C94640}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool{1DFACB44-EFFE-4599-A6DC-DFDC9CE58815}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8{1FBAC8AA-0110-476B-8FFB-C9017CF5F055}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8{26D0B281-9556-4FB5-B845-5FA226696110}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=bool{27675347-3547-4DA2-9C37-2F1F7018FD3A}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 1 Data;0;ReadMethodType=I16{2E335D05-AE75-4BE7-AF7E-ED24A81D2090}ResourceName=IO ModuleA_AData Clock Div 2;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000,000000;MaxFreq=87500000,000000;VariableFreq=0;NomFreq=87500000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{38953B0B-F385-4B2F-8B9D-CE24651F4E94}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Configuration Error;0;ReadMethodType=bool{3C554E3E-3C4B-44FA-8484-3D83A1D426D3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=bool{42CC1D1D-9383-44ED-8384-8979813CF3B9}"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=2F326E4A5C02B9D7E2B3519C05F676B8;Name=Quiet time;WriteArb=1"{4760964D-B25A-4C16-81C7-C865EEED3822}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8{4ABBA21D-E69B-4682-9ACB-E380CCCF959F}"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=A372FB14B1CCA95F8869DB9C247987F4;Name=Trigger samples;WriteArb=2"{4E6EF412-3648-4B92-950D-EF039AF98F9F}"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Never Arbitrate;ElementsPerRead=1;WriteArbs=Never Arbitrate;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{55932330-01A8-49E9-A375-C5F3B336C055}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=bool{573E4F86-8C83-489D-848A-600376BEB1F6}"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=ResetMixerClocks;WriteArb=2"{5B953298-84E0-4859-BB86-544AA2343700}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Settings FIFO;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{5F38CAE8-8E03-424B-8044-7D82C737EBB1}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=bool{65C84F3C-B57B-4DE4-8AB6-FB0ACDC349F5}"ControlLogic=0;NumberOfElements=37;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{6D61E81F-6722-4176-BE41-C4B694C10569}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 0;WriteArb=2"{74FA27CA-35AB-4A93-B080-92B22EB79A60}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 2 Data;0;ReadMethodType=I16{77D5B5F9-8CA3-48ED-955D-5F90C72C7579}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=bool{77E3E29C-111C-4C45-BF93-C9CB639C4FD3}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 2;WriteArb=2"{80AFE7EE-7106-4087-BF09-56E0C72D86CD}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{812960A4-4897-462E-BEDE-CFDFE64575A8}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16{898CF6E0-3970-4FD9-ABBF-7F3670C7525E}"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{9494CA45-F67C-47A8-9A5A-655840AC1ADD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=bool{95C16AE4-CB19-4BF9-A7F1-7CF968DD6EFE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8{9938B6CE-B086-4A05-8900-DBE7F3DCAE18}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8{A290EF16-90D1-44CA-924F-6FCEFFCA4514}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 3;WriteArb=2"{A4710E9D-7422-466D-9CF9-228FA82B117F}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;RecordLength DMA 5761;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{A56E5BFE-5A9F-4E21-B994-66744E5727AC}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=bool{AA2E51B8-B186-4215-8509-826959670C46}ResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ASampleClk;ClockSignalName=IO_ModuleA_ASampleClk;MinFreq=250000000,000000;MaxFreq=175000000,000000;VariableFreq=0;NomFreq=175000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{AC952DA6-4FCB-49DF-9260-233C6F8CB764}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=bool{B0F12B2B-A8CB-4CFE-8842-FB77194D755B}"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=B334C8DF9A74F7B68CB7CFB8FFE6705F;Name=Output ready;WriteArb=1"{B6384A0B-783A-4E96-B237-573624F0D9D6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8{B8BEAE46-C894-4431-8DB6-02ED616F8234}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 0 Data;0;ReadMethodType=I16{B9754C35-50CC-4EB6-AB59-D1C526AD285F}5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -4182,8 +4182,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 &lt;/Cluster&gt;
 &lt;/Cluster&gt;
 &lt;/Array&gt;
-{CEC61F4E-A771-4CD4-B7AA-8C9A574DB94D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=bool{D18F3E90-DAAC-4446-ACDE-23143DE18BA9}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=bool{DFA845D5-ABB7-49C5-BFFB-1AA9EDE58607}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000,000000;MaxFreq=200000000,000000;VariableFreq=0;NomFreq=200000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E01DB400-1DB8-476B-AC0C-D468C1F73219}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=bool{E3566D11-03EF-47D1-A1DC-AD88B6A6E7C6}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=bool{E5209EFF-4343-4733-9893-4BC8419FD617}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=bool{EA3E5AAF-C668-47DF-B7AA-D27576327200}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16PXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
-			<Property Name="configString.name" Type="Str">200 MHz ClockResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000,000000;MaxFreq=200000000,000000;VariableFreq=0;NomFreq=200000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AI 0 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 0 Data;0;ReadMethodType=I16AI 1 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 1 Data;0;ReadMethodType=I16AI 2 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 2 Data;0;ReadMethodType=I16AI 3 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 3 Data;0;ReadMethodType=I16Configuration ErrorNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Configuration Error;0;ReadMethodType=boolData Clock Div 2ResourceName=IO ModuleA_AData Clock Div 2;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000,000000;MaxFreq=87500000,000000;VariableFreq=0;NomFreq=87500000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Data ClockResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ASampleClk;ClockSignalName=IO_ModuleA_ASampleClk;MinFreq=250000000,000000;MaxFreq=175000000,000000;VariableFreq=0;NomFreq=175000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Initialization DoneNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=boolIO Module5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10&lt;Array&gt;
+{CEC61F4E-A771-4CD4-B7AA-8C9A574DB94D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=bool{D18F3E90-DAAC-4446-ACDE-23143DE18BA9}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=bool{DFA845D5-ABB7-49C5-BFFB-1AA9EDE58607}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000,000000;MaxFreq=200000000,000000;VariableFreq=0;NomFreq=200000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E01DB400-1DB8-476B-AC0C-D468C1F73219}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=bool{E2DEBDFB-118F-43B6-A55A-867F3B376F2C}"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=2;Implementation=2;FPGAtoHostDMA 5782;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E3566D11-03EF-47D1-A1DC-AD88B6A6E7C6}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=bool{E5209EFF-4343-4733-9893-4BC8419FD617}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=bool{E9C84F45-961B-41D5-AFE2-FA306DAC6EAA}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 1;WriteArb=2"{EA3E5AAF-C668-47DF-B7AA-D27576327200}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16PXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+			<Property Name="configString.name" Type="Str">200 MHz ClockResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000,000000;MaxFreq=200000000,000000;VariableFreq=0;NomFreq=200000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;5761 triggered"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=5761 triggered;WriteArb=1"AI 0 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 0 Data;0;ReadMethodType=I16AI 1 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 1 Data;0;ReadMethodType=I16AI 2 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 2 Data;0;ReadMethodType=I16AI 3 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 3 Data;0;ReadMethodType=I16ClkDomain FIFO 5761"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Never Arbitrate;ElementsPerRead=1;WriteArbs=Never Arbitrate;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Configuration ErrorNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Configuration Error;0;ReadMethodType=boolData Clock Div 2ResourceName=IO ModuleA_AData Clock Div 2;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000,000000;MaxFreq=87500000,000000;VariableFreq=0;NomFreq=87500000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Data ClockResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ASampleClk;ClockSignalName=IO_ModuleA_ASampleClk;MinFreq=250000000,000000;MaxFreq=175000000,000000;VariableFreq=0;NomFreq=175000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DC offs 0"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 0;WriteArb=2"DC offs 1"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 1;WriteArb=2"DC offs 2"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 2;WriteArb=2"DC offs 3"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 3;WriteArb=2"FPGAtoHostDMA 5761"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=2;Implementation=2;FPGAtoHostDMA 5782;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Initialization DoneNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=boolIO Module5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Cluster&gt;
@@ -4419,7 +4419,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 &lt;/Cluster&gt;
 &lt;/Cluster&gt;
 &lt;/Array&gt;
-LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=boolLED 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=boolLED 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=boolLED 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=boolPFI Connector EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=boolPFI InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8PFI OutputArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8PFI Write EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8PXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAReinitializeArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=boolSample Clock CommitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=boolSample Clock SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8SPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI Device SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Read DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8SPI ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolSynthesizer LockedNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=boolTrigger InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool</Property>
+LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=boolLED 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=boolLED 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=boolLED 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=boolLowSpeed FIFO 5761"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Output ready"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=B334C8DF9A74F7B68CB7CFB8FFE6705F;Name=Output ready;WriteArb=1"PFI Connector EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=boolPFI InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8PFI OutputArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8PFI Write EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8PXI_Trig0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=boolPXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAQuiet time"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=2F326E4A5C02B9D7E2B3519C05F676B8;Name=Quiet time;WriteArb=1"RecordLength DMA 5761"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;RecordLength DMA 5761;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"ReinitializeArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=boolResetMixerClocks"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=ResetMixerClocks;WriteArb=2"Sample Clock CommitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=boolSample Clock SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8Settings FIFO"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Settings FIFO;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"SimulatedData 5761"ControlLogic=0;NumberOfElements=37;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"SPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI Device SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Read DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8SPI ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolSynthesizer LockedNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=boolTrigger InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=boolTrigger samples"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=A372FB14B1CCA95F8869DB9C247987F4;Name=Trigger samples;WriteArb=2"</Property>
 			<Property Name="NI.FPGA.79XXR.ConfiguredIOModule" Type="Str">IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">FlexRIO-K7IOModule</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].InvalidPath" Type="Str"></Property>
@@ -5081,6 +5081,266 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Property Name="Target Class" Type="Str">PXIe-7975R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
+			<Item Name="Resources" Type="Folder">
+				<Item Name="5761 triggered" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">1</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=5761 triggered;WriteArb=1"</Property>
+					<Property Name="Data Type" Type="UInt">0</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{192BD99A-9162-4148-B6C3-E7FD40D07917}</Property>
+					<Property Name="Initial Data" Type="Str">0</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001000A402104426F6F6C00000100000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="ClkDomain FIFO 5761" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1029</Property>
+					<Property Name="Arbitration for Read" Type="UInt">2</Property>
+					<Property Name="Arbitration for Write" Type="UInt">2</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">10</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Never Arbitrate;ElementsPerRead=1;WriteArbs=Never Arbitrate;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">12</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4E6EF412-3648-4B92-950D-EF039AF98F9F}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1024</Property>
+					<Property Name="Type" Type="UInt">0</Property>
+					<Property Name="Type Descriptor" Type="Str">10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</Property>
+				</Item>
+				<Item Name="DC offs 0" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">2</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 0;WriteArb=2"</Property>
+					<Property Name="Data Type" Type="UInt">9</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{6D61E81F-6722-4176-BE41-C4B694C10569}</Property>
+					<Property Name="Initial Data" Type="Str">0000000000000000</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="DC offs 1" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">2</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 1;WriteArb=2"</Property>
+					<Property Name="Data Type" Type="UInt">9</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{E9C84F45-961B-41D5-AFE2-FA306DAC6EAA}</Property>
+					<Property Name="Initial Data" Type="Str">0000000000000000</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="DC offs 2" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">2</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 2;WriteArb=2"</Property>
+					<Property Name="Data Type" Type="UInt">9</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{77E3E29C-111C-4C45-BF93-C9CB639C4FD3}</Property>
+					<Property Name="Initial Data" Type="Str">0000000000000000</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="DC offs 3" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">2</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 3;WriteArb=2"</Property>
+					<Property Name="Data Type" Type="UInt">9</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A290EF16-90D1-44CA-924F-6FCEFFCA4514}</Property>
+					<Property Name="Initial Data" Type="Str">0000000000000000</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="FPGAtoHostDMA 5761" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">32767</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">8</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=2;Implementation=2;FPGAtoHostDMA 5782;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">12</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{E2DEBDFB-118F-43B6-A55A-867F3B376F2C}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">2</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">32700</Property>
+					<Property Name="Type" Type="UInt">2</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094008000355363400010000000000000000000000000000</Property>
+				</Item>
+				<Item Name="LowSpeed FIFO 5761" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1029</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">10</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">12</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{898CF6E0-3970-4FD9-ABBF-7F3670C7525E}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1024</Property>
+					<Property Name="Type" Type="UInt">0</Property>
+					<Property Name="Type Descriptor" Type="Str">10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</Property>
+				</Item>
+				<Item Name="Output ready" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">1</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=B334C8DF9A74F7B68CB7CFB8FFE6705F;Name=Output ready;WriteArb=1"</Property>
+					<Property Name="Data Type" Type="UInt">0</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{B0F12B2B-A8CB-4CFE-8842-FB77194D755B}</Property>
+					<Property Name="Initial Data" Type="Str">1</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001000A402104426F6F6C00000100000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="PXI_Trig0" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="ArbitrationForOutputEnable">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputEnable">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/PXI/PXI_Trig0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3C554E3E-3C4B-44FA-8484-3D83A1D426D3}</Property>
+				</Item>
+				<Item Name="Quiet time" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">1</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=2F326E4A5C02B9D7E2B3519C05F676B8;Name=Quiet time;WriteArb=1"</Property>
+					<Property Name="Data Type" Type="UInt">6</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{42CC1D1D-9383-44ED-8384-8979813CF3B9}</Property>
+					<Property Name="Initial Data" Type="Str">0000111110100000</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="RecordLength DMA 5761" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">6</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;RecordLength DMA 5761;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">12</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A4710E9D-7422-466D-9CF9-228FA82B117F}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1020</Property>
+					<Property Name="Type" Type="UInt">2</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+				</Item>
+				<Item Name="ResetMixerClocks" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">2</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=ResetMixerClocks;WriteArb=2"</Property>
+					<Property Name="Data Type" Type="UInt">0</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{573E4F86-8C83-489D-848A-600376BEB1F6}</Property>
+					<Property Name="Initial Data" Type="Str">0</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">1000800000000001000A402104426F6F6C00000100000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+				<Item Name="Settings FIFO" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">1029</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">8</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Settings FIFO;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">12</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{5B953298-84E0-4859-BB86-544AA2343700}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">1024</Property>
+					<Property Name="Type" Type="UInt">1</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094008000355363400010000000000000000000000000000</Property>
+				</Item>
+				<Item Name="SimulatedData 5761" Type="FPGA FIFO">
+					<Property Name="Actual Number of Elements" Type="UInt">37</Property>
+					<Property Name="Arbitration for Read" Type="UInt">1</Property>
+					<Property Name="Arbitration for Write" Type="UInt">1</Property>
+					<Property Name="Control Logic" Type="UInt">0</Property>
+					<Property Name="Data Type" Type="UInt">2</Property>
+					<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+					<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=37;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+					<Property Name="fifo.configured" Type="Bool">true</Property>
+					<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+					<Property Name="fifo.valid" Type="Bool">true</Property>
+					<Property Name="fifo.version" Type="Int">12</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{65C84F3C-B57B-4DE4-8AB6-FB0ACDC349F5}</Property>
+					<Property Name="Local" Type="Bool">false</Property>
+					<Property Name="Memory Type" Type="UInt">2</Property>
+					<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+					<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+					<Property Name="Requested Number of Elements" Type="UInt">16</Property>
+					<Property Name="Type" Type="UInt">0</Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+				</Item>
+				<Item Name="Trigger samples" Type="FPGA Register">
+					<Property Name="Arbitration For Write" Type="UInt">2</Property>
+					<Property Name="Compile Config String" Type="Str">"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=A372FB14B1CCA95F8869DB9C247987F4;Name=Trigger samples;WriteArb=2"</Property>
+					<Property Name="Data Type" Type="UInt">6</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4ABBA21D-E69B-4682-9ACB-E380CCCF959F}</Property>
+					<Property Name="Initial Data" Type="Str">0000000000000001</Property>
+					<Property Name="Initialized" Type="Bool">true</Property>
+					<Property Name="InitVIPath" Type="Str"></Property>
+					<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+					<Property Name="Valid" Type="Bool">true</Property>
+					<Property Name="Version" Type="Int">1</Property>
+				</Item>
+			</Item>
 			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{80AFE7EE-7106-4087-BF09-56E0C72D86CD}</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
@@ -5125,6 +5385,482 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
 				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 				<Property Name="NI.SortType" Type="Int">3</Property>
+			</Item>
+			<Item Name="FPGAmain_5761.vi" Type="VI" URL="../FPGAmain_5761.vi">
+				<Property Name="configString.guid" Type="Str">{192BD99A-9162-4148-B6C3-E7FD40D07917}"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=5761 triggered;WriteArb=1"{19E49307-2008-4D15-AA86-0A21FE5905E5}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 3 Data;0;ReadMethodType=I16{1B91D052-9FE7-4FE5-87AA-928178C94640}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=bool{1DFACB44-EFFE-4599-A6DC-DFDC9CE58815}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8{1FBAC8AA-0110-476B-8FFB-C9017CF5F055}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8{26D0B281-9556-4FB5-B845-5FA226696110}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=bool{27675347-3547-4DA2-9C37-2F1F7018FD3A}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 1 Data;0;ReadMethodType=I16{2E335D05-AE75-4BE7-AF7E-ED24A81D2090}ResourceName=IO ModuleA_AData Clock Div 2;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000,000000;MaxFreq=87500000,000000;VariableFreq=0;NomFreq=87500000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{38953B0B-F385-4B2F-8B9D-CE24651F4E94}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Configuration Error;0;ReadMethodType=bool{3C554E3E-3C4B-44FA-8484-3D83A1D426D3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=bool{42CC1D1D-9383-44ED-8384-8979813CF3B9}"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=2F326E4A5C02B9D7E2B3519C05F676B8;Name=Quiet time;WriteArb=1"{4760964D-B25A-4C16-81C7-C865EEED3822}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8{4ABBA21D-E69B-4682-9ACB-E380CCCF959F}"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=A372FB14B1CCA95F8869DB9C247987F4;Name=Trigger samples;WriteArb=2"{4E6EF412-3648-4B92-950D-EF039AF98F9F}"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Never Arbitrate;ElementsPerRead=1;WriteArbs=Never Arbitrate;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{55932330-01A8-49E9-A375-C5F3B336C055}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=bool{573E4F86-8C83-489D-848A-600376BEB1F6}"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=ResetMixerClocks;WriteArb=2"{5B953298-84E0-4859-BB86-544AA2343700}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Settings FIFO;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{5F38CAE8-8E03-424B-8044-7D82C737EBB1}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=bool{65C84F3C-B57B-4DE4-8AB6-FB0ACDC349F5}"ControlLogic=0;NumberOfElements=37;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{6D61E81F-6722-4176-BE41-C4B694C10569}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 0;WriteArb=2"{74FA27CA-35AB-4A93-B080-92B22EB79A60}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 2 Data;0;ReadMethodType=I16{77D5B5F9-8CA3-48ED-955D-5F90C72C7579}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=bool{77E3E29C-111C-4C45-BF93-C9CB639C4FD3}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 2;WriteArb=2"{80AFE7EE-7106-4087-BF09-56E0C72D86CD}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{812960A4-4897-462E-BEDE-CFDFE64575A8}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16{898CF6E0-3970-4FD9-ABBF-7F3670C7525E}"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{9494CA45-F67C-47A8-9A5A-655840AC1ADD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=bool{95C16AE4-CB19-4BF9-A7F1-7CF968DD6EFE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8{9938B6CE-B086-4A05-8900-DBE7F3DCAE18}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8{A290EF16-90D1-44CA-924F-6FCEFFCA4514}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 3;WriteArb=2"{A4710E9D-7422-466D-9CF9-228FA82B117F}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;RecordLength DMA 5761;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"{A56E5BFE-5A9F-4E21-B994-66744E5727AC}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=bool{AA2E51B8-B186-4215-8509-826959670C46}ResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ASampleClk;ClockSignalName=IO_ModuleA_ASampleClk;MinFreq=250000000,000000;MaxFreq=175000000,000000;VariableFreq=0;NomFreq=175000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{AC952DA6-4FCB-49DF-9260-233C6F8CB764}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=bool{B0F12B2B-A8CB-4CFE-8842-FB77194D755B}"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=B334C8DF9A74F7B68CB7CFB8FFE6705F;Name=Output ready;WriteArb=1"{B6384A0B-783A-4E96-B237-573624F0D9D6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8{B8BEAE46-C894-4431-8DB6-02ED616F8234}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 0 Data;0;ReadMethodType=I16{B9754C35-50CC-4EB6-AB59-D1C526AD285F}5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clk200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;IdelayClk200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;200 MHz Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;SampleClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;175000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;250000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock Div 2&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;DivSampleClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;87500000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;125000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+{CEC61F4E-A771-4CD4-B7AA-8C9A574DB94D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=bool{D18F3E90-DAAC-4446-ACDE-23143DE18BA9}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=bool{DFA845D5-ABB7-49C5-BFFB-1AA9EDE58607}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000,000000;MaxFreq=200000000,000000;VariableFreq=0;NomFreq=200000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E01DB400-1DB8-476B-AC0C-D468C1F73219}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=bool{E2DEBDFB-118F-43B6-A55A-867F3B376F2C}"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=2;Implementation=2;FPGAtoHostDMA 5782;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{E3566D11-03EF-47D1-A1DC-AD88B6A6E7C6}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=bool{E5209EFF-4343-4733-9893-4BC8419FD617}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=bool{E9C84F45-961B-41D5-AFE2-FA306DAC6EAA}"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 1;WriteArb=2"{EA3E5AAF-C668-47DF-B7AA-D27576327200}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16PXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">200 MHz ClockResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000,000000;MaxFreq=200000000,000000;VariableFreq=0;NomFreq=200000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;5761 triggered"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=5761 triggered;WriteArb=1"AI 0 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 0 Data;0;ReadMethodType=I16AI 1 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 1 Data;0;ReadMethodType=I16AI 2 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 2 Data;0;ReadMethodType=I16AI 3 DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/AI 3 Data;0;ReadMethodType=I16ClkDomain FIFO 5761"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Never Arbitrate;ElementsPerRead=1;WriteArbs=Never Arbitrate;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Configuration ErrorNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Configuration Error;0;ReadMethodType=boolData Clock Div 2ResourceName=IO ModuleA_AData Clock Div 2;TopSignalConnect=IO_ModuleA_ADivSampleClk;ClockSignalName=IO_ModuleA_ADivSampleClk;MinFreq=125000000,000000;MaxFreq=87500000,000000;VariableFreq=0;NomFreq=87500000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Data ClockResourceName=IO ModuleA_AData Clock;TopSignalConnect=IO_ModuleA_ASampleClk;ClockSignalName=IO_ModuleA_ASampleClk;MinFreq=250000000,000000;MaxFreq=175000000,000000;VariableFreq=0;NomFreq=175000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=45,000000;MaxDutyCycle=55,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;DC offs 0"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 0;WriteArb=2"DC offs 1"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 1;WriteArb=2"DC offs 2"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 2;WriteArb=2"DC offs 3"DataType=1000800000000001003C005F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF000000000000000100010000000000000000000000000000;InitDataHash=F52AEAD55C71D643510D5F624F787E11;Name=DC offs 3;WriteArb=2"FPGAtoHostDMA 5761"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=2;Implementation=2;FPGAtoHostDMA 5782;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Initialization DoneNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Initialization Done;0;ReadMethodType=boolIO Module5a5fd57816f44686b3f544256ec0fbb5IOModuleID:0x109374C6,Version:15.1.0,National Instruments::NI 5761,SyncClock:CLK10&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clk200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;IdelayClk200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;200 MHz Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;SampleClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;175000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;250000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock Div 2&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;DivSampleClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;87500000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;125000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 0;0;WriteMethodType=boolLED 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 1;0;WriteMethodType=boolLED 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 2;0;WriteMethodType=boolLED 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/LED 3;0;WriteMethodType=boolLowSpeed FIFO 5761"ControlLogic=0;NumberOfElements=1029;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=10008000000000020042405F035100100000000E000100010000000EFFFFFFFFFFFFFFFF0000000F0000000D0000000000007FFF00000001FFFFFFFF00000000000000010551206F75740018404000018000000800000A495120617272617920380000010001000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Output ready"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=B334C8DF9A74F7B68CB7CFB8FFE6705F;Name=Output ready;WriteArb=1"PFI Connector EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Connector Enable;0;WriteMethodType=boolPFI InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI Input;0;ReadMethodType=U8PFI OutputArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Output;0;WriteMethodType=U8PFI Write EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI Write Enable;0;WriteMethodType=U8PXI_Trig0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/PXI/PXI_Trig0;0;ReadMethodType=bool;WriteMethodType=boolPXIe-7975R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7975RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAQuiet time"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=2F326E4A5C02B9D7E2B3519C05F676B8;Name=Quiet time;WriteArb=1"RecordLength DMA 5761"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;RecordLength DMA 5761;DataType=100080000000000100094006000355313600010000000000000000;DisableOnOverflowUnderflow=FALSE"ReinitializeArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Reinitialize;0;WriteMethodType=boolResetMixerClocks"DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=113B7F2F33D9035E4D9C5F52FC8B54D6;Name=ResetMixerClocks;WriteArb=2"Sample Clock CommitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Commit;0;WriteMethodType=boolSample Clock SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Sample Clock Select;0;WriteMethodType=U8Settings FIFO"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Settings FIFO;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"SimulatedData 5761"ControlLogic=0;NumberOfElements=37;Type=0;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"SPI AddressArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Address;0;WriteMethodType=U16SPI Device SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Device Select;0;WriteMethodType=U8SPI IdleNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Idle;0;ReadMethodType=boolSPI Read DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/SPI Read Data;0;ReadMethodType=U8SPI ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Read;0;WriteMethodType=boolSPI Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write Data;0;WriteMethodType=U16SPI WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/SPI Write;0;WriteMethodType=boolSynthesizer LockedNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Synthesizer Locked;0;ReadMethodType=boolTrigger InputNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Input;0;ReadMethodType=boolTrigger samples"DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=A372FB14B1CCA95F8869DB9C247987F4;Name=Trigger samples;WriteArb=2"</Property>
 			</Item>
 			<Item Name="IO Module" Type="FPGA Component Level IP">
 				<Property Name="FPGA.PersistentID" Type="Str">{B9754C35-50CC-4EB6-AB59-D1C526AD285F}</Property>
@@ -5842,7 +6578,14 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
+					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
+				</Item>
+			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
 		<Item Name="Scope_5782_6channel.vi" Type="VI" URL="../Scope_5782_6channel.vi"/>
@@ -5876,26 +6619,17 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="BuildFilterInput.vi" Type="VI" URL="../FPGA/subVIs/BuildFilterInput.vi"/>
 			<Item Name="CIC_5decimate_1cycle.vi" Type="VI" URL="../FPGA/Filters/CIC_5decimate_1cycle.vi"/>
 			<Item Name="CIC_5interpolate_5cycle.vi" Type="VI" URL="../FPGA/Filters/CIC_5interpolate_5cycle.vi"/>
-			<Item Name="ClearAvailableRecord.vi" Type="VI" URL="../Host/FpgaRef/FpgaRef5785/ClearAvailableRecord.vi"/>
 			<Item Name="DataMode.ctl" Type="VI" URL="../FPGA/DataMode.ctl"/>
 			<Item Name="FIR_2decimate_5cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_2decimate_5cycles.vi"/>
 			<Item Name="FIR_5decimate_5cycles_finalstage.vi" Type="VI" URL="../FPGA/Filters/FIR_5decimate_5cycles_finalstage.vi"/>
 			<Item Name="FIR_5interpolate_10cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_10cycles.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
-			<Item Name="FPGAmain_5761_Jbi6mU1xO8A.lvbitx" Type="Document" URL="/../../../source_from_win7/freia-fast-daq-new/FPGA Bitfiles/FPGAmain_5761_Jbi6mU1xO8A.lvbitx"/>
 			<Item Name="FPGAmain_5782_Fast_PID_v2_AUIS2QXxJ8I.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Fast_PID_v2_AUIS2QXxJ8I.lvbitx"/>
-			<Item Name="FpgaRef5785.lvclass" Type="LVClass" URL="../Host/FpgaRef/FpgaRef5785/FpgaRef5785.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Feed forward ref.vi" Type="VI" URL="../Host/FpgaRef/FpgaRef5785/Read Feed forward ref.vi"/>
-			<Item Name="Read FpgaRef5785.vi" Type="VI" URL="../Host/Scope/Scope5761/Read FpgaRef5785.vi"/>
 			<Item Name="ScaleCIC_5.vi" Type="VI" URL="../FPGA/Filters/ScaleCIC_5.vi"/>
-			<Item Name="SetAmPhase.vi" Type="VI" URL="../Host/FpgaRef/FpgaRef5785/SetAmPhase.vi"/>
-			<Item Name="SetDcOffset.vi" Type="VI" URL="../Host/FpgaRef/FpgaRef5761/SetDcOffset.vi"/>
-			<Item Name="SetDcOffset.vi" Type="VI" URL="../Host/FpgaRef/FpgaRef5785/SetDcOffset.vi"/>
-			<Item Name="SetOutputMixerFrequency.vi" Type="VI" URL="../Host/FpgaRef/FpgaRef5785/SetOutputMixerFrequency.vi"/>
 			<Item Name="SignalGenerator.vi" Type="VI" URL="../FPGA/SignalGenerator.vi"/>
 			<Item Name="xsimk_2BDE9E6E1EB64A67A452702BB5B408AD.dll" Type="Document" URL="../FPGA/Filters/Xilinx/FIR_2decimate_5cycles/FIR_2decimate_5cycles/xsim.dir/FIR_2decimate_5cycles_2BDE9E6E1EB64A67A452702BB5B408AD/xsimk_2BDE9E6E1EB64A67A452702BB5B408AD.dll"/>
 			<Item Name="xsimk_9B0F783A7DAD479FBAC8A1581EA5634C.dll" Type="Document" URL="../FPGA/Filters/FIR_5decimate_5cycles_finalstage/FIR_5decimate_5cycles/xsim.dir/FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C/xsimk_9B0F783A7DAD479FBAC8A1581EA5634C.dll"/>
