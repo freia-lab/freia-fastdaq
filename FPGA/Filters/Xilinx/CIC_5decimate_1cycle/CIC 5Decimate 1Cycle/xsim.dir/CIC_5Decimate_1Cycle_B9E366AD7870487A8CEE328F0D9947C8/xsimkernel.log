@@ -1,7 +1,7 @@
 Running: xsim.dir/CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8/xsimk_B9E366AD7870487A8CEE328F0D9947C8.dll -log xsiSetupLog
 Design successfully loaded
-Design Loading Memory Usage: 8256 KB (Peak: 8256 KB)
-Design Loading CPU Usage: 218 ms
+Design Loading Memory Usage: 7336 KB (Peak: 7336 KB)
+Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 8676 KB (Peak: 8676 KB)
-Simulation CPU Usage: 702 ms
+Simulation Memory Usage: 7340 KB (Peak: 7340 KB)
+Simulation CPU Usage: 15 ms

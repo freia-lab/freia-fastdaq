@@ -1,0 +1,1 @@
+"xil_defaultlib.conf_C27920BE4B494647A4C78390E4D052C7" -L "xil_defaultlib" -L "unisim" -L "unimacro" -L "xilinxcorelib" -L "secureip" -snapshot "DDS_Compiler_C27920BE4B494647A4C78390E4D052C7" -dll -dll_name "xsimk_C27920BE4B494647A4C78390E4D052C7.dll" -prj "ipinodesim.prj" 
