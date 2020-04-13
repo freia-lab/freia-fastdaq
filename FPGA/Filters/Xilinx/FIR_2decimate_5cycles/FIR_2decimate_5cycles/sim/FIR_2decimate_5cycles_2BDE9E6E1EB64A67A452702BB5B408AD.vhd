@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2018 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2020 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -63,7 +63,7 @@ ENTITY FIR_2decimate_5cycles_2BDE9E6E1EB64A67A452702BB5B408AD IS
     aclken : IN STD_LOGIC;
     s_axis_data_tvalid : IN STD_LOGIC;
     s_axis_data_tready : OUT STD_LOGIC;
-    s_axis_data_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    s_axis_data_tdata : IN STD_LOGIC_VECTOR(63 DOWNTO 0);
     m_axis_data_tvalid : OUT STD_LOGIC;
     m_axis_data_tdata : OUT STD_LOGIC_VECTOR(63 DOWNTO 0)
   );
@@ -153,7 +153,7 @@ ARCHITECTURE FIR_2decimate_5cycles_2BDE9E6E1EB64A67A452702BB5B408AD_arch OF FIR_
       s_axis_data_tready : OUT STD_LOGIC;
       s_axis_data_tlast : IN STD_LOGIC;
       s_axis_data_tuser : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
-      s_axis_data_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+      s_axis_data_tdata : IN STD_LOGIC_VECTOR(63 DOWNTO 0);
       s_axis_config_tvalid : IN STD_LOGIC;
       s_axis_config_tready : OUT STD_LOGIC;
       s_axis_config_tlast : IN STD_LOGIC;
@@ -209,22 +209,22 @@ BEGIN
       C_COL_PIPE_LEN => 4,
       C_COL_CONFIG => "9",
       C_OPTIMIZATION => 0,
-      C_DATA_PATH_WIDTHS => "16,16",
-      C_DATA_IP_PATH_WIDTHS => "16,16",
-      C_DATA_PX_PATH_WIDTHS => "16,16",
-      C_DATA_WIDTH => 16,
-      C_COEF_PATH_WIDTHS => "18,18",
+      C_DATA_PATH_WIDTHS => "16,16,16,16",
+      C_DATA_IP_PATH_WIDTHS => "32,32",
+      C_DATA_PX_PATH_WIDTHS => "32,32",
+      C_DATA_WIDTH => 32,
+      C_COEF_PATH_WIDTHS => "18,18,18,18",
       C_COEF_WIDTH => 18,
-      C_DATA_PATH_SRC => "0,1",
-      C_COEF_PATH_SRC => "0,0",
-      C_PX_PATH_SRC => "0,1",
-      C_DATA_PATH_SIGN => "0,0",
-      C_COEF_PATH_SIGN => "0,0",
-      C_ACCUM_PATH_WIDTHS => "36,36",
+      C_DATA_PATH_SRC => "0,1,2,3",
+      C_COEF_PATH_SRC => "0,0,0,0",
+      C_PX_PATH_SRC => "0,1,2,3",
+      C_DATA_PATH_SIGN => "1,0,1,0",
+      C_COEF_PATH_SIGN => "0,0,0,0",
+      C_ACCUM_PATH_WIDTHS => "37,36,37,36",
       C_OUTPUT_WIDTH => 32,
       C_OUTPUT_PATH_WIDTHS => "32,32",
-      C_ACCUM_OP_PATH_WIDTHS => "36,36",
-      C_EXT_MULT_CNFG => "none",
+      C_ACCUM_OP_PATH_WIDTHS => "52,52",
+      C_EXT_MULT_CNFG => "0,1,0,16;2,3,0,16",
       C_DATA_PATH_PSAMP_SRC => "0",
       C_OP_PATH_PSAMP_SRC => "0",
       C_NUM_MADDS => 9,
@@ -241,13 +241,13 @@ BEGIN
       C_DATA_MEM_PACKING => 0,
       C_COEF_MEM_PACKING => 0,
       C_FILTS_PACKED => 0,
-      C_LATENCY => 22,
+      C_LATENCY => 24,
       C_HAS_ARESETn => 1,
       C_HAS_ACLKEN => 1,
       C_DATA_HAS_TLAST => 0,
       C_S_DATA_HAS_FIFO => 1,
       C_S_DATA_HAS_TUSER => 0,
-      C_S_DATA_TDATA_WIDTH => 32,
+      C_S_DATA_TDATA_WIDTH => 64,
       C_S_DATA_TUSER_WIDTH => 1,
       C_M_DATA_HAS_TREADY => 0,
       C_M_DATA_HAS_TUSER => 0,

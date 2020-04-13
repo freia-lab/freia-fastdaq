@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2019 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2020 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -61,10 +61,10 @@ ENTITY CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8 IS
     aclk : IN STD_LOGIC;
     aclken : IN STD_LOGIC;
     aresetn : IN STD_LOGIC;
-    s_axis_data_tdata : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    s_axis_data_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     s_axis_data_tvalid : IN STD_LOGIC;
     s_axis_data_tready : OUT STD_LOGIC;
-    m_axis_data_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    m_axis_data_tdata : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
     m_axis_data_tvalid : OUT STD_LOGIC
   );
 END CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8;
@@ -119,11 +119,11 @@ ARCHITECTURE CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8_arch OF CIC_5
       s_axis_config_tdata : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
       s_axis_config_tvalid : IN STD_LOGIC;
       s_axis_config_tready : OUT STD_LOGIC;
-      s_axis_data_tdata : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+      s_axis_data_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
       s_axis_data_tvalid : IN STD_LOGIC;
       s_axis_data_tready : OUT STD_LOGIC;
       s_axis_data_tlast : IN STD_LOGIC;
-      m_axis_data_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+      m_axis_data_tdata : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
       m_axis_data_tuser : OUT STD_LOGIC_VECTOR(0 DOWNTO 0);
       m_axis_data_tvalid : OUT STD_LOGIC;
       m_axis_data_tready : IN STD_LOGIC;
@@ -150,8 +150,8 @@ BEGIN
       C_NUM_STAGES => 4,
       C_DIFF_DELAY => 1,
       C_RATE => 5,
-      C_INPUT_WIDTH => 16,
-      C_OUTPUT_WIDTH => 26,
+      C_INPUT_WIDTH => 32,
+      C_OUTPUT_WIDTH => 42,
       C_USE_DSP => 1,
       C_HAS_ROUNDING => 0,
       C_NUM_CHANNELS => 1,
@@ -163,21 +163,21 @@ BEGIN
       C_USE_STREAMING_INTERFACE => 1,
       C_FAMILY => "kintex7",
       C_XDEVICEFAMILY => "kintex7",
-      C_C1 => 26,
-      C_C2 => 26,
-      C_C3 => 26,
-      C_C4 => 26,
+      C_C1 => 42,
+      C_C2 => 42,
+      C_C3 => 42,
+      C_C4 => 42,
       C_C5 => 0,
       C_C6 => 0,
-      C_I1 => 26,
-      C_I2 => 26,
-      C_I3 => 26,
-      C_I4 => 26,
+      C_I1 => 42,
+      C_I2 => 42,
+      C_I3 => 42,
+      C_I4 => 42,
       C_I5 => 0,
       C_I6 => 0,
       C_S_AXIS_CONFIG_TDATA_WIDTH => 1,
-      C_S_AXIS_DATA_TDATA_WIDTH => 16,
-      C_M_AXIS_DATA_TDATA_WIDTH => 32,
+      C_S_AXIS_DATA_TDATA_WIDTH => 32,
+      C_M_AXIS_DATA_TDATA_WIDTH => 48,
       C_M_AXIS_DATA_TUSER_WIDTH => 1,
       C_HAS_DOUT_TREADY => 0,
       C_HAS_ACLKEN => 1,
