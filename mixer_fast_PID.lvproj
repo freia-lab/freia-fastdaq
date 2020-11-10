@@ -513,7 +513,7 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 5782\16.1.0\K7\NI5782SingleSampleClip.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\16.1.0\K7\NI5782SingleSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 5782\16.1.0\K7\NI5782SingleSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\16.1.0\K7\NI5782SingleSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5782\16.1.0\K7\NI5782SingleSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to two analog input channels and two analog output channels.  There are two 4-bit DIO ports, which may be configured for input or output.  There are 4 PFI ports, which may be configured for input or output individually.
@@ -5906,7 +5906,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 5761\15.1.0\K7\NI5761SingleSampleClip\LvFpgaTarget\Ni5761SingleSampleClip.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\15.1.0\K7\NI5761SingleSampleClip\LvFpgaTarget\Ni5761SingleSampleClip.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 5761\15.1.0\K7\NI5761SingleSampleClip\LvFpgaTarget\Ni5761SingleSampleClip.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\15.1.0\K7\NI5761SingleSampleClip\LvFpgaTarget\Ni5761SingleSampleClip.xml</RelativeToProject>
+            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5761\15.1.0\K7\NI5761SingleSampleClip\LvFpgaTarget\Ni5761SingleSampleClip.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to four analog input channels, eight PFI lines, and an input clock selector (Internal Sample clock, Internal Sample clock locked to an external Reference clock through CLK_IN, External Sample clock through CLK_IN, Internal Sample clock locked to an external Reference clock through IoModSyncClk, or External Sample clock through IoModSyncClk).
