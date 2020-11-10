@@ -1,0 +1,7 @@
+Running: xsim.dir/FIR_4decimate_5cycles_32bit_5761_9FE178B4D6B34E3F96A36585B53174AD/xsimk_9FE178B4D6B34E3F96A36585B53174AD.dll -log xsiSetupLog
+Design successfully loaded
+Design Loading Memory Usage: 10128 KB (Peak: 10128 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 11176 KB (Peak: 11176 KB)
+Simulation CPU Usage: 20608 ms

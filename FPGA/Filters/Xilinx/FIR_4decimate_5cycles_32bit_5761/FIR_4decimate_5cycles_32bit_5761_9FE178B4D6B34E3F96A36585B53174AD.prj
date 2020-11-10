@@ -1,0 +1,5 @@
+VHDL xbip_utils_v3_0_7 "<DIR>/hdl/xbip_utils_v3_0_vh_rfs.vhd"
+VHDL axi_utils_v2_0_3 "<DIR>/hdl/axi_utils_v2_0_vh_rfs.vhd"
+Memory Initialization Files xil_defaultlib "<DIR>/FIR_4decimate_5cycles_32bit_5761_9FE178B4D6B34E3F96A36585B53174AD.mif"
+VHDL fir_compiler_v7_2_8 "<DIR>/hdl/fir_compiler_v7_2_vh_rfs.vhd"
+VHDL xil_defaultlib "<DIR>/sim/FIR_4decimate_5cycles_32bit_5761_9FE178B4D6B34E3F96A36585B53174AD.vhd"
