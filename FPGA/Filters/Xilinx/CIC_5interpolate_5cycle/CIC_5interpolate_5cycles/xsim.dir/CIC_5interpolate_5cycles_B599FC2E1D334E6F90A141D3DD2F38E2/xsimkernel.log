@@ -1,7 +1,7 @@
 Running: xsim.dir/CIC_5interpolate_5cycles_B599FC2E1D334E6F90A141D3DD2F38E2/xsimk_B599FC2E1D334E6F90A141D3DD2F38E2.dll -log xsiSetupLog
 Design successfully loaded
-Design Loading Memory Usage: 6680 KB (Peak: 6680 KB)
+Design Loading Memory Usage: 7532 KB (Peak: 7532 KB)
 Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 7132 KB (Peak: 7132 KB)
-Simulation CPU Usage: 249 ms
+Simulation Memory Usage: 7972 KB (Peak: 7972 KB)
+Simulation CPU Usage: 1077 ms
