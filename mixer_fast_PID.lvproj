@@ -8895,7 +8895,6 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="IIR LP.vi" Type="VI" URL="../FPGA/Feed forward/IIR LP.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGAmain_5761" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
