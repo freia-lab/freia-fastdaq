@@ -4963,8 +4963,6 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 					<Item Name="FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 					<Item Name="xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/xsim.dir/FourInputGlitchFreeMuxBasicElements/xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 				</Item>
-				<Item Name="IIR LP.vi" Type="VI" URL="../FPGA/Feed forward/IIR LP.vi"/>
-				<Item Name="FormatDMAelement_6_elements_old.vi" Type="VI" URL="../FPGA/Input_5782/FormatDMAelement_6_elements_old.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGAmain_5782_Fast_PID" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
