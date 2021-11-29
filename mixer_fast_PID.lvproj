@@ -9673,6 +9673,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Adaptive FF.vi" Type="VI" URL="../FPGA/Feed forward/Adaptive FF.vi"/>
+			<Item Name="Adress counter.vi" Type="VI" URL="../FPGA/Feed forward/Adress counter.vi"/>
 			<Item Name="biquad coefficients.ctl" Type="VI" URL="../FPGA/Filters/biquad coefficients.ctl"/>
 			<Item Name="biquad_fxp.vi" Type="VI" URL="../FPGA/Filters/biquad_fxp.vi"/>
 			<Item Name="BuildFilterInput.vi" Type="VI" URL="../FPGA/subVIs/BuildFilterInput.vi"/>
@@ -9681,6 +9682,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="CIC_5decimate_1cycle_32_bit_for_5761.vi" Type="VI" URL="../FPGA/Filters_5761/CIC_5decimate_1cycle_32_bit_for_5761.vi"/>
 			<Item Name="CIC_5decimate_1cycle_for_5761.vi" Type="VI" URL="../FPGA/Filters_5761/CIC_5decimate_1cycle_for_5761.vi"/>
 			<Item Name="CIC_5interpolate_5cycle.vi" Type="VI" URL="../FPGA/Filters/CIC_5interpolate_5cycle.vi"/>
+			<Item Name="Count delay.vi" Type="VI" URL="../FPGA/subVIs/Count delay.vi"/>
 			<Item Name="DataMode.ctl" Type="VI" URL="../FPGA/DataMode.ctl"/>
 			<Item Name="FeedForwardProcessingState.ctl" Type="VI" URL="../FPGA/Feed forward/FeedForwardProcessingState.ctl"/>
 			<Item Name="Filter FF.vi" Type="VI" URL="../FPGA/Feed forward/Filter FF.vi"/>
@@ -9698,18 +9700,23 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="FPGAmain_5782_IQ_PID_Quench_umIfVrlQf5Q.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_IQ_PID_Quench_umIfVrlQf5Q.lvbitx"/>
 			<Item Name="HT_add.vi" Type="VI" URL="../FPGA/Input_5782/HT_add.vi"/>
 			<Item Name="IIR LP I32.vi" Type="VI" URL="../FPGA/Feed forward/IIR LP I32.vi"/>
+			<Item Name="IQ_PID.vi" Type="VI" URL="../FPGA/PID/IQ_PID.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="main.rtm" Type="Document" URL="../main.rtm"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PID control enabled type.ctl" Type="VI" URL="../FPGA/PID/PID control enabled type.ctl"/>
+			<Item Name="PID_controller.vi" Type="VI" URL="../FPGA/PID/PID_controller.vi"/>
 			<Item Name="Piezo setting.ctl" Type="VI" URL="../FPGA/cavity model/Piezo setting.ctl"/>
+			<Item Name="Save PID output.vi" Type="VI" URL="../FPGA/Feed forward/Save PID output.vi"/>
 			<Item Name="ScaleCIC_5.vi" Type="VI" URL="../FPGA/Filters/ScaleCIC_5.vi"/>
 			<Item Name="SignalGenerator_for_5761.vi" Type="VI" URL="../FPGA/Inpput_5761/SignalGenerator_for_5761.vi"/>
 			<Item Name="Trigger Delay.vi" Type="VI" URL="../FPGA/subVIs/Trigger Delay.vi"/>
 			<Item Name="Update FF_I.vi" Type="VI" URL="../FPGA/Feed forward/Update FF_I.vi"/>
 			<Item Name="Update FF_Q.vi" Type="VI" URL="../FPGA/Feed forward/Update FF_Q.vi"/>
+			<Item Name="Update_c_ForAmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/Update_c_ForAmplitudeFeedback.vi"/>
+			<Item Name="Update_e_t_ForAmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/Update_e_t_ForAmplitudeFeedback.vi"/>
 			<Item Name="xsimk_2BDE9E6E1EB64A67A452702BB5B408AD.dll" Type="Document" URL="../FPGA/Filters/Xilinx/FIR_2decimate_5cycles/FIR_2decimate_5cycles/xsim.dir/FIR_2decimate_5cycles_2BDE9E6E1EB64A67A452702BB5B408AD/xsimk_2BDE9E6E1EB64A67A452702BB5B408AD.dll"/>
 			<Item Name="xsimk_9FE178B4D6B34E3F96A36585B53174AD.dll" Type="Document" URL="../FPGA/Filters/Xilinx/FIR_4decimate_5cycles_32bit_5761/xsim.dir/FIR_4decimate_5cycles_32bit_5761_9FE178B4D6B34E3F96A36585B53174AD/xsimk_9FE178B4D6B34E3F96A36585B53174AD.dll"/>
 			<Item Name="xsimk_978BFF4F28994E7297D8CFB5DA7FCEAF.dll" Type="Document" URL="../FPGA/Filters_5761/CIC_5decimate_1cycle_for_5761/xsim.dir/CIC_5decimate_1cycle_for_5761_978BFF4F28994E7297D8CFB5DA7FCEAF/xsimk_978BFF4F28994E7297D8CFB5DA7FCEAF.dll"/>
