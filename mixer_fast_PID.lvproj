@@ -5462,6 +5462,8 @@ Kd_Tau am"DataType=1000800000000001003C005F03510020000000060001000100000006FFFFF
 					<Item Name="FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 					<Item Name="xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/xsim.dir/FourInputGlitchFreeMuxBasicElements/xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 				</Item>
+				<Item Name="IIR LP.vi" Type="VI" URL="../FPGA/Feed forward/IIR LP.vi"/>
+				<Item Name="FormatDMAelement_6_elements_old.vi" Type="VI" URL="../FPGA/Input_5782/FormatDMAelement_6_elements_old.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGAmain_5782_Fast_PID" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -9740,6 +9742,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="FIR_4decimate_5cycles_32bit_5761.vi" Type="VI" URL="../FPGA/Filters/FIR_4decimate_5cycles_32bit_5761.vi"/>
 			<Item Name="FIR_5decimate_5cycles_32bit_for_5761.vi" Type="VI" URL="../FPGA/Filters_5761/FIR_5decimate_5cycles_32bit_for_5761.vi"/>
 			<Item Name="FIR_5interpolate_10cycles.vi" Type="VI" URL="../FPGA/Filters/FIR_5interpolate_10cycles.vi"/>
+			<Item Name="FormatDMAelement_6_elements.vi" Type="VI" URL="../FPGA/Input_5782/FormatDMAelement_6_elements.vi"/>
 			<Item Name="fpga_settings.ctl" Type="VI" URL="../FPGA/fpga_settings.ctl"/>
 			<Item Name="FPGAmain_5761_zuew0qNtRjU.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5761_zuew0qNtRjU.lvbitx"/>
 			<Item Name="FPGAmain_5782_Fast_PID_X3R1Zvw8vDM.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGAmain_5782_Fast_PID_X3R1Zvw8vDM.lvbitx"/>
@@ -9757,8 +9760,10 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="PID_controller.vi" Type="VI" URL="../FPGA/PID/PID_controller.vi"/>
 			<Item Name="Piezo setting.ctl" Type="VI" URL="../FPGA/cavity model/Piezo setting.ctl"/>
 			<Item Name="Read from memory with address window.vi" Type="VI" URL="../FPGA/subVIs/Read from memory with address window.vi"/>
+			<Item Name="Read from memory.vi" Type="VI" URL="../FPGA/subVIs/Read from memory.vi"/>
 			<Item Name="Save PID output.vi" Type="VI" URL="../FPGA/Feed forward/Save PID output.vi"/>
 			<Item Name="ScaleCIC_5.vi" Type="VI" URL="../FPGA/Filters/ScaleCIC_5.vi"/>
+			<Item Name="ScaleTo16Bit.vi" Type="VI" URL="../FPGA/subVIs/ScaleTo16Bit.vi"/>
 			<Item Name="SignalGenerator_for_5761.vi" Type="VI" URL="../FPGA/Inpput_5761/SignalGenerator_for_5761.vi"/>
 			<Item Name="Trigger Delay.vi" Type="VI" URL="../FPGA/subVIs/Trigger Delay.vi"/>
 			<Item Name="Update FF_I.vi" Type="VI" URL="../FPGA/Feed forward/Update FF_I.vi"/>
@@ -9774,6 +9779,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="xsimk_418948D8E56E498F91A60A22D0632EB3.dll" Type="Document" URL="../FPGA/Filters_5761/CIC_5decimate_1cycle_32_bit_for_5761/xsim.dir/CIC_5decimate_1cycle_32_bit_for_5761_418948D8E56E498F91A60A22D0632EB3/xsimk_418948D8E56E498F91A60A22D0632EB3.dll"/>
 			<Item Name="xsimk_B599FC2E1D334E6F90A141D3DD2F38E2.dll" Type="Document" URL="../FPGA/Filters/Xilinx/CIC_5interpolate_5cycle/CIC_5interpolate_5cycles/xsim.dir/CIC_5interpolate_5cycles_B599FC2E1D334E6F90A141D3DD2F38E2/xsimk_B599FC2E1D334E6F90A141D3DD2F38E2.dll"/>
 			<Item Name="xsimk_C27920BE4B494647A4C78390E4D052C7.dll" Type="Document" URL="../FPGA/Filters_5761/DDS Compiler/xsim.dir/DDS_Compiler_C27920BE4B494647A4C78390E4D052C7/xsimk_C27920BE4B494647A4C78390E4D052C7.dll"/>
+			<Item Name="Zero window.vi" Type="VI" URL="../FPGA/subVIs/Zero window.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
