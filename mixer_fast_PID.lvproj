@@ -9646,7 +9646,6 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="Update FF_Q.vi" Type="VI" URL="../FPGA/Feed forward/Update FF_Q.vi"/>
 			<Item Name="Update_c_ForAmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/Update_c_ForAmplitudeFeedback.vi"/>
 			<Item Name="Update_e_t_ForAmplitudeFeedback.vi" Type="VI" URL="../FPGA/AM-PID/Update_e_t_ForAmplitudeFeedback.vi"/>
-			<Item Name="w12 scale.ctl" Type="VI" URL="../../source_5785/Host/Scope/controls/w12 scale.ctl"/>
 			<Item Name="xsimk_2BDE9E6E1EB64A67A452702BB5B408AD.dll" Type="Document" URL="../FPGA/Filters/Xilinx/FIR_2decimate_5cycles/FIR_2decimate_5cycles/xsim.dir/FIR_2decimate_5cycles_2BDE9E6E1EB64A67A452702BB5B408AD/xsimk_2BDE9E6E1EB64A67A452702BB5B408AD.dll"/>
 			<Item Name="xsimk_9FE178B4D6B34E3F96A36585B53174AD.dll" Type="Document" URL="../FPGA/Filters/Xilinx/FIR_4decimate_5cycles_32bit_5761/xsim.dir/FIR_4decimate_5cycles_32bit_5761_9FE178B4D6B34E3F96A36585B53174AD/xsimk_9FE178B4D6B34E3F96A36585B53174AD.dll"/>
 			<Item Name="xsimk_978BFF4F28994E7297D8CFB5DA7FCEAF.dll" Type="Document" URL="../FPGA/Filters_5761/CIC_5decimate_1cycle_for_5761/xsim.dir/CIC_5decimate_1cycle_for_5761_978BFF4F28994E7297D8CFB5DA7FCEAF/xsimk_978BFF4F28994E7297D8CFB5DA7FCEAF.dll"/>
