@@ -9666,6 +9666,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 			<Item Name="IQ_PID.vi" Type="VI" URL="../FPGA/PID/IQ_PID.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="main.rtm" Type="Document" URL="../main.rtm"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
