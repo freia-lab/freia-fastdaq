@@ -9532,6 +9532,7 @@ LED 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="phase shift when changing ref.vi" Type="VI" URL="../../phase shift when changing ref.vi"/>
 		<Item Name="Scope_5782_6channel.vi" Type="VI" URL="../Scope_5782_6channel.vi"/>
 		<Item Name="Scope_5782_6channel_IQ_PID.vi" Type="VI" URL="../Scope_5782_6channel_IQ_PID.vi"/>
 		<Item Name="Scope_5782_6channel_IQ_PID_Quench.vi" Type="VI" URL="../Scope_5782_6channel_IQ_PID_Quench.vi"/>
