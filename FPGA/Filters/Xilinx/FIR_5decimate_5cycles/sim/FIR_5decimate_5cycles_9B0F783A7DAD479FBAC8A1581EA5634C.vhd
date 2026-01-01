@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2020 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2025 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -47,14 +47,14 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:ip:fir_compiler:7.2
--- IP Revision: 8
+-- IP Revision: 16
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-LIBRARY fir_compiler_v7_2_8;
-USE fir_compiler_v7_2_8.fir_compiler_v7_2_8;
+LIBRARY fir_compiler_v7_2_16;
+USE fir_compiler_v7_2_16.fir_compiler_v7_2_16;
 
 ENTITY FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C IS
   PORT (
@@ -72,7 +72,7 @@ END FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C;
 ARCHITECTURE FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C_arch OF FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings : STRING;
   ATTRIBUTE DowngradeIPIdentifiedWarnings OF FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C_arch: ARCHITECTURE IS "yes";
-  COMPONENT fir_compiler_v7_2_8 IS
+  COMPONENT fir_compiler_v7_2_16 IS
     GENERIC (
       C_XDEVICEFAMILY : STRING;
       C_ELABORATION_DIR : STRING;
@@ -175,18 +175,24 @@ ARCHITECTURE FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C_arch OF FIR_
       event_s_reload_tlast_missing : OUT STD_LOGIC;
       event_s_reload_tlast_unexpected : OUT STD_LOGIC
     );
-  END COMPONENT fir_compiler_v7_2_8;
+  END COMPONENT fir_compiler_v7_2_16;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
-  ATTRIBUTE X_INTERFACE_INFO OF aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 aresetn_intf RST";
-  ATTRIBUTE X_INTERFACE_INFO OF aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 aclk_intf CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF aclken: SIGNAL IS "xilinx.com:signal:clockenable:1.0 aclken_intf CE";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TDATA";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m_axis_data_tvalid: SIGNAL IS "XIL_INTERFACENAME M_AXIS_DATA, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 0, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TREADY";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axis_data_tvalid: SIGNAL IS "XIL_INTERFACENAME S_AXIS_DATA, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF aclken: SIGNAL IS "XIL_INTERFACENAME aclken_intf, POLARITY ACTIVE_HIGH";
+  ATTRIBUTE X_INTERFACE_INFO OF aclken: SIGNAL IS "xilinx.com:signal:clockenable:1.0 aclken_intf CE";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF aclk: SIGNAL IS "XIL_INTERFACENAME aclk_intf, ASSOCIATED_BUSIF S_AXIS_CONFIG:M_AXIS_DATA:S_AXIS_DATA:S_AXIS_RELOAD, ASSOCIATED_RESET aresetn, ASSOCIATED_CLKEN aclken, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 aclk_intf CLK";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF aresetn: SIGNAL IS "XIL_INTERFACENAME aresetn_intf, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 aresetn_intf RST";
 BEGIN
-  U0 : fir_compiler_v7_2_8
+  U0 : fir_compiler_v7_2_16
     GENERIC MAP (
       C_XDEVICEFAMILY => "kintex7",
       C_ELABORATION_DIR => "./",
@@ -279,3 +285,7 @@ BEGIN
       m_axis_data_tdata => m_axis_data_tdata
     );
 END FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C_arch;
+
+configuration conf_9B0F783A7DAD479FBAC8A1581EA5634C of FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C is
+  for FIR_5decimate_5cycles_9B0F783A7DAD479FBAC8A1581EA5634C_arch end for; 
+end conf_9B0F783A7DAD479FBAC8A1581EA5634C; 
