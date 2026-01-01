@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2019 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2025 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -47,16 +47,16 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:ip:dds_compiler:6.0
--- IP Revision: 13
+-- IP Revision: 21
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-LIBRARY dds_compiler_v6_0_13;
-USE dds_compiler_v6_0_13.dds_compiler_v6_0_13;
+LIBRARY dds_compiler_v6_0_21;
+USE dds_compiler_v6_0_21.dds_compiler_v6_0_21;
 
-ENTITY DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D IS
+ENTITY DDS_Compiler_215C88D802284BF296C47A843D049EF3 IS
   PORT (
     aclk : IN STD_LOGIC;
     aclken : IN STD_LOGIC;
@@ -66,12 +66,12 @@ ENTITY DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D IS
     m_axis_data_tvalid : OUT STD_LOGIC;
     m_axis_data_tdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
   );
-END DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D;
+END DDS_Compiler_215C88D802284BF296C47A843D049EF3;
 
-ARCHITECTURE DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D_arch OF DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D IS
+ARCHITECTURE DDS_Compiler_215C88D802284BF296C47A843D049EF3_arch OF DDS_Compiler_215C88D802284BF296C47A843D049EF3 IS
   ATTRIBUTE DowngradeIPIdentifiedWarnings : STRING;
-  ATTRIBUTE DowngradeIPIdentifiedWarnings OF DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D_arch: ARCHITECTURE IS "yes";
-  COMPONENT dds_compiler_v6_0_13 IS
+  ATTRIBUTE DowngradeIPIdentifiedWarnings OF DDS_Compiler_215C88D802284BF296C47A843D049EF3_arch: ARCHITECTURE IS "yes";
+  COMPONENT dds_compiler_v6_0_21 IS
     GENERIC (
       C_XDEVICEFAMILY : STRING;
       C_MODE_OF_OPERATION : INTEGER;
@@ -153,17 +153,23 @@ ARCHITECTURE DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D_arch OF DDS_Compiler_
       event_s_config_tlast_missing : OUT STD_LOGIC;
       event_s_config_tlast_unexpected : OUT STD_LOGIC
     );
-  END COMPONENT dds_compiler_v6_0_13;
+  END COMPONENT dds_compiler_v6_0_21;
   ATTRIBUTE X_INTERFACE_INFO : STRING;
-  ATTRIBUTE X_INTERFACE_INFO OF aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 aclk_intf CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF aclken: SIGNAL IS "xilinx.com:signal:clockenable:1.0 aclken_intf CE";
-  ATTRIBUTE X_INTERFACE_INFO OF aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 aresetn_intf RST";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_phase_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_PHASE TVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axis_phase_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_PHASE TDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TDATA";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m_axis_data_tvalid: SIGNAL IS "XIL_INTERFACENAME M_AXIS_DATA, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 0, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axis_phase_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_PHASE TDATA";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axis_phase_tvalid: SIGNAL IS "XIL_INTERFACENAME S_AXIS_PHASE, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 0, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axis_phase_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_PHASE TVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF aresetn: SIGNAL IS "XIL_INTERFACENAME aresetn_intf, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 aresetn_intf RST";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF aclken: SIGNAL IS "XIL_INTERFACENAME aclken_intf, POLARITY ACTIVE_HIGH";
+  ATTRIBUTE X_INTERFACE_INFO OF aclken: SIGNAL IS "xilinx.com:signal:clockenable:1.0 aclken_intf CE";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF aclk: SIGNAL IS "XIL_INTERFACENAME aclk_intf, ASSOCIATED_BUSIF M_AXIS_PHASE:S_AXIS_CONFIG:M_AXIS_DATA:S_AXIS_PHASE, ASSOCIATED_RESET aresetn, ASSOCIATED_CLKEN aclken, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 aclk_intf CLK";
 BEGIN
-  U0 : dds_compiler_v6_0_13
+  U0 : dds_compiler_v6_0_21
     GENERIC MAP (
       C_XDEVICEFAMILY => "kintex7",
       C_MODE_OF_OPERATION => 0,
@@ -229,4 +235,4 @@ BEGIN
       m_axis_data_tdata => m_axis_data_tdata,
       m_axis_phase_tready => '0'
     );
-END DDS_Compiler_2F1820F3EEBE4315A278052B09F5C36D_arch;
+END DDS_Compiler_215C88D802284BF296C47A843D049EF3_arch;
