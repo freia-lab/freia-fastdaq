@@ -1,0 +1,7 @@
+Running: xsim.dir/DDS_Compiler_8AEA4D6678494B609559049F07B86E68/xsimk_8AEA4D6678494B609559049F07B86E68.dll -log xsiSetupLog
+Design successfully loaded
+Design Loading Memory Usage: 1857472 KB (Peak: 1857472 KB)
+Design Loading CPU Usage: 1511328 ms
+Simulation completed
+Simulation Memory Usage: 1857472 KB (Peak: 1857472 KB)
+Simulation CPU Usage: 1520374 ms
