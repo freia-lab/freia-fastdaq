@@ -690,7 +690,7 @@ Daughterboard StateArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
             <RelativeToLabVIEW>..\..\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb0.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb0.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>..\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb0.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\Program Files\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb0.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program Files\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb0.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>HDL top level for the RF CLIP for X410 with 100 MHz of BW</Description>
@@ -2037,7 +2037,7 @@ Daughterboard StateArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
             <RelativeToLabVIEW>..\..\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb1.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb1.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>..\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb1.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\Program Files\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb1.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program Files\NI\LVAddons\niusrprio\1\Targets\NI\FPGA\USRP\X410\CLIP\RF2x2_100M_CLIP\RF2x2_100M_ClipDb1.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>HDL top level for the RF CLIP for X410 with 100 MHz of BW</Description>
