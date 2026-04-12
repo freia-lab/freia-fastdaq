@@ -5173,6 +5173,7 @@ Daughterboard StateArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			</Item>
 		</Item>
 		<Item Name="x410_test_host_main.vi" Type="VI" URL="../x410_test_host_main.vi"/>
+		<Item Name="DataMode.ctl" Type="VI" URL="../../FPGA/DataMode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
