@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2025 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2026 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -204,7 +204,3 @@ BEGIN
       m_axis_data_tready => '0'
     );
 END CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8_arch;
-
-configuration conf_B9E366AD7870487A8CEE328F0D9947C8 of CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8 is
-  for CIC_5Decimate_1Cycle_B9E366AD7870487A8CEE328F0D9947C8_arch end for; 
-end conf_B9E366AD7870487A8CEE328F0D9947C8; 

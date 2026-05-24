@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2025 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2026 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -204,7 +204,3 @@ BEGIN
       m_axis_data_tready => '0'
     );
 END CIC_5interpolate_5cycles_B599FC2E1D334E6F90A141D3DD2F38E2_arch;
-
-configuration conf_B599FC2E1D334E6F90A141D3DD2F38E2 of CIC_5interpolate_5cycles_B599FC2E1D334E6F90A141D3DD2F38E2 is
-  for CIC_5interpolate_5cycles_B599FC2E1D334E6F90A141D3DD2F38E2_arch end for; 
-end conf_B599FC2E1D334E6F90A141D3DD2F38E2; 
